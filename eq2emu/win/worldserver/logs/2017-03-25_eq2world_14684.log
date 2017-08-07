@@ -1,0 +1,1420 @@
+08:06:40 I Init: Starting EQ2Emulator WorldServer...
+08:06:40 I DB: Using database 'eq2world' at localhost
+08:06:40 D World: Randomizing World...
+08:06:40 D Init: ./LoginServer.ini read...
+08:06:40 I Patcher: Connecting to DB PatchServer...
+08:06:41 E Patcher: PatchServer::ConnectToUpdateServer: ' '
+08:06:41 I Patcher: DB Update check completed...
+08:06:41 I World: Loading System Data...
+08:06:52 I World: Loaded System Data (took 11 seconds)
+08:06:52 W Threaded: Using Threaded loading of static data...
+08:06:52 W Thread: Item Loading Thread started.
+08:06:52 I DB: Using database 'eq2world' at localhost
+08:06:52 I Items: Loading Items...
+08:06:52 I Guilds: Loading Guilds...
+08:06:52 W Thread: Spell Loading Thread started.
+08:06:52 I DB: Using database 'eq2world' at localhost
+08:06:52 I Spells: Loading Spells...
+08:06:52 I Guilds: 	Loaded 0 Guild(s)
+08:06:52 I Recipes: Loading Recipe Books...
+08:06:52 D Recipes: 	Loaded 2619 Recipe Books 
+08:06:52 I Recipes: Loading Recipes...
+08:06:52 D Recipes: 	Loaded 981 recipes
+08:06:52 I Tradeskills: Loading Tradeskill Events...
+08:06:52 D Tradeskills: 	Loaded 144 tradeskill events
+08:06:52 I AA: Loading Alternate Advancements...
+08:06:52 I AA: Loaded 3084 Alternate Advancement(s)
+08:06:52 I AA: Loading AA Tree Nodes...
+08:06:52 I AA: Loaded 0 AA Tree Nodes
+08:06:52 I Titles: Loading Titles...
+08:06:52 D World: 	Loaded 472 Titles
+08:06:52 I Languages: Loading Languages...
+08:06:52 D World: 	Loaded 44 Languages
+08:06:52 I Chat: Loading channels...
+08:06:52 I LUA: Loading Spawn Scripts...
+08:06:53 D Spells: Loading Spell Effects...
+08:06:53 D LUA: 	Loaded 114199 SpawnScripts
+08:06:53 I LUA: Loading Zone Scripts...
+08:06:54 D LUA: 	Loaded 6 ZoneScripts
+08:06:54 I World: Loading House Zone Data...
+08:06:54 I World: Loading Heroic OP Data...
+08:06:54 I World: Loading Race Types Data...
+08:06:54 I World: - Loaded 0 Race Types
+08:06:54 I World: Waiting for load threads to finish.
+08:06:55 D Spells: 	Loaded 20434 Spell Effects.
+08:06:55 D Spells: Loading Spell LUA Data...
+08:06:55 D Spells: 	Loaded 25006 Spell LUA Data entries.
+08:06:55 D Spells: Loading Spells Scripts...
+08:06:58 D Items: 	Loaded 14664 Normal Items
+08:06:58 D Items: 	Loaded 4205 Baubles
+08:06:58 D Items: 	Loaded 350 Bags
+08:06:58 D Items: 	Loaded 537 Books
+08:06:58 D Items: 	Loaded 6677 House Items
+08:06:58 D Items: 	Loaded 2627 Food Items
+08:06:58 D Items: 	Loaded 20459 Weapons
+08:06:58 D Items: 	Loaded 3548 Ranged Weapons
+08:06:58 D Items: 	Loaded 157 Thrown Weapons
+08:06:58 D Items: 	Loaded 62188 Armor Pieces
+08:06:59 D Items: 	Loaded 5661 Shields
+08:06:59 D Items: 	Loaded 24843 Skill Items
+08:06:59 D Items: 	Loaded 25979 Recipe Book Items
+08:06:59 D Items: 	Loaded 65 House Containers
+08:06:59 D Items: Loading Item Appearances...
+08:07:00 D Items: 	Loaded 73859 Item Appearances
+08:07:00 D Items: Loading Item Stats...
+08:07:02 D Spells: 	Loaded 13551 SpellScripts
+08:07:02 I Spells: Loaded 11498 Spells (took 10 seconds)
+08:07:02 I Spells: Loading Spell Errors...
+08:07:02 I Traits: Loading Traits...
+08:07:02 I Traits: Loaded 0 Trait(s)
+08:07:02 W Thread: Spell Loading Thread completed.
+08:07:03 D Items: 	Loaded 451278 Item Stats
+08:07:03 D Items: Loading Item Effects...
+08:07:04 D Items: 	Loaded 167559 Item Effects
+08:07:04 D Items: Loading Item Level Overrides...
+08:07:04 D Items: 	Loaded 0 Item Level Overrides
+08:07:04 I Items: Loaded 153019 Total Items (took 12 seconds)
+08:07:04 D Items: WorldDatabase::LoadNextUniqueItemID: max(id): 7671
+08:07:04 I Collect: Loading Collections...
+08:07:05 D Collect: 	Loaded 1174 collections
+08:07:05 D Collect: 	Loaded 3819 collection items
+08:07:05 D Collect: 	Loaded 2951 collection rewards
+08:07:05 I Merchants: Loading Merchants...
+08:07:05 D Merchant: 	Clearing Merchant Inventory...
+08:07:05 D Merchant: 	Loading Merchant Inventory...
+08:07:05 D Merchant: 	Loaded 22638 Merchant Inventory Item(s)
+08:07:05 D Merchant: 	Loaded 774 Merchant List(s)
+08:07:05 I Quests: Loading Quests...
+08:07:06 D Quest: 	Loaded 183 Quest(s)
+08:07:06 W Thread: Item Loading Thread completed.
+08:07:06 I World: Load threads finished.
+08:07:06 I World: Total World startup time: 26 seconds.
+08:07:06 D World: Starting factory Reader
+08:07:06 D World: Starting factory Writer
+08:07:06 I Net: World server listening on: 127.0.0.1:9000
+08:07:06 I Zone: Starting static zones...
+08:07:06 I IRC: Starting global IRC server...
+08:07:06 D IRC: Connecting to IRC server irc.eq2emulator.net:6667.
+08:07:06 D IRC: Successfully connected to the global IRC server!
+08:07:06 D Thread: Starting console command thread...
+08:07:06 I Console: Type 'help' or '?' and press enter for menu options.
+08:07:06 D Thread: Starting autoinit loginserver thread...
+08:07:06 I World: Connected to LoginServer: 127.0.0.1: 9100
+08:10:28 D Net: AddAuth: 1 Key: 1490443828
+08:10:28 D Net: New client from ip: 127.0.0.1 port: 59700
+08:10:28 D Net: Adding new client...
+08:10:29 I ZoneAuth: Access Key: 1490443828, Character Name: Ibux, Account ID: 1
+08:10:29 D Player: Loading character for 'Ibux' (char_id: 3)
+08:10:29 I Zone: Loading new Zone 'FrostfangSea'
+08:10:29 D Zone: SpawnUpdateTimer: 200ms
+08:10:29 D Zone: SpawnDeleteTimer: 30000ms
+08:10:29 D Zone: Loading zone flight paths
+08:10:29 D Zone: Loaded 0 flight paths for Frostfang Sea
+08:10:29 D Zone: Loaded 0 flight path locations for Frostfang Sea
+08:10:29 D Command: -Loading Entity Commands...
+08:10:29 D Command: --Loaded 1316 entity command(s)
+08:10:29 I NPC: -Loading NPC data...
+08:10:29 I NPC: --Loaded 708 NPC(s).
+08:10:29 I NPC: --Loaded 3 NPC Spell(s).
+08:10:29 D Player: Loaded 0 LUA history for Ibux
+08:10:29 I NPC: --Loaded 0 NPC Skill(s).
+08:10:29 I NPC: --Loaded 0 NPC Equipment Piece(s).
+08:10:29 D Recipes: Loaded 0 recipes for player: Ibux (3)
+08:10:30 D Achievements: Loaded 0 player achievement updates
+08:10:30 D Player: Loading character_details for 'Ibux' (char_id: 3)
+08:10:31 I NPC: --Loaded 704 NPC Appearance(s).
+08:10:31 I NPC: --Loaded 614 NPC Equipment Appearance(s).
+08:10:31 I NPC: -Load NPC data complete!
+08:10:31 I Object: -Loading Object data...
+08:10:31 D Object: --Loaded 206 Object(s)
+08:10:31 I Object: -Load Object data complete!
+08:10:31 I Sign: -Loading Sign data...
+08:10:31 D Sign: --Loaded 45 Sign(s)
+08:10:31 I Sign: -Load Sign data complete!
+08:10:31 I Widget: -Loading Widget data...
+08:10:31 D Widget: --Loaded 34 Widget(s)
+08:10:31 I Widget: -Load Widget data complete!
+08:10:31 I GSpawn: -Loading Groundspawn data...
+08:10:32 D GSpawn: --Loaded 19 GroundSpawn(s)
+08:10:32 D GSpawn: --Loaded 33 GroundSpawn Entries.
+08:10:32 D GSpawn: --Loaded 239 GroundSpawn Items.
+08:10:32 I GSpawn: -Load Groundspawn data complete!
+08:10:32 I Pet: -Loading Pet data...
+08:10:32 D Pet: --Loaded 1707 Pet Names
+08:10:32 I Pet: -Load Pet data complete!
+08:10:32 I Loot: -Loading Spawn loot data...
+08:10:32 D Loot: --Loading LootTables...
+08:10:32 D Loot: --Loaded 0 loot tables.
+08:10:32 D Loot: --Loading LootDrops...
+08:10:32 D Loot: --Loaded 0 loot drops.
+08:10:32 D Loot: --Assigning loot table(s) to spawn(s)...
+08:10:32 D Loot: --Loaded 0 spawn loot lists.
+08:10:32 I Loot: -Loading Global loot data...
+08:10:32 D Loot: --Loaded 0 Global loot lists.
+08:10:32 I Loot: -Loading Spawn loot data complete!
+08:10:32 I Transport: -Loading Transporters...
+08:10:32 D Transport: --Loaded 30 Transporter(s)
+08:10:32 D Transport: -Loading Transporter Maps...
+08:10:32 D Transport: --Loaded 1 Transporter Maps
+08:10:32 I Transport: -Loading Transporters complete!
+08:10:33 I Spawn: Loaded for zone 'FrostfangSea' (470):
+	1806 NPC(s), 1238 Object(s), 34 Widget(s)
+	81 Sign(s), 1920 Ground Spawn(s), 1828 Spawn Group(s)
+	1161 Spawn Group Association(s), 0 Spawn Group Chance(s)
+08:10:48 D NPC: Loaded NPC: 'a portal jumped Ry'Gorr raider' (4700096).
+08:10:48 D Client: SendLoginInfo to new client...
+08:10:48 D World: Increment Server_Accepted_Connection + 1
+08:10:48 D Client: Populate Skill Map...
+08:10:48 D Client: Toggle Character Online...
+08:10:48 D Player: Toggling Character ONLINE!
+08:10:48 D Client: Loading Character Skills for player 'Ibux'...
+08:10:48 D World: Loading Titles for player 'Ibux'...
+08:10:48 D World: Loading Languages for player 'Ibux'...
+08:10:48 D Client: No character languages loaded!
+08:10:48 D Spells: Loading Character Spells for player Ibux...
+08:10:48 D Recipes: Loading Character Recipe Books for player 'Ibux' ...
+08:10:49 D Client: No character recipe books found!
+08:10:49 D Packet: Sending Login Accepted packet (LS_LoginResponse, 1193)
+08:10:49 D World: Send MOTD...
+08:10:49 D Packet: Sending Character Macro packet (WS_MacroInit, 1193)
+08:10:49 D World: Sending FriendList...
+08:10:49 D Player: Loading Player Factions...
+08:10:49 D Player: Loading Character Quests...
+08:10:49 D Player: Loading Player Mail...
+08:10:49 D Client: Send Quest Journal...
+08:10:49 D Client: Loading Faction Updates...
+08:10:49 D Client: Send Command List...
+08:10:49 D Client: Send Language Updates...
+08:10:49 D Player: Getting current language for player 'Ibux'...
+08:10:49 D Client: SendFriendList
+08:10:49 D Client: SendIgnoreList
+08:10:54 D Items: Loading items for character 'Ibux' (3)
+08:10:55 D Player: Getting current title index for player 'Ibux'...
+08:10:55 D Player: Getting current title index for player 'Ibux'...
+08:10:55 D Merchant: Loading Buyback - Player: 3
+08:11:00 D Command: Player 'Ibux' (1), Command: autoattack
+08:11:00 D Command: Player 'Ibux' (1), Command: enablequeuedabilities
+08:11:00 D Command: Player 'Ibux' (1), Command: welcome_info
+08:11:04 D Client: Saving paperdoll image for player Ibux (3)
+08:11:04 D Client: Saving headshot image for player Ibux (3)
+08:11:05 D Player: Ibux left grid 4294967295 and entered grid 3646759888
+08:11:07 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:11:07 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:11:10 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:11:10 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:11:10 D Spell: Concentration is now 0 on Ibux
+08:11:10 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:11:10 D Command: Player 'Ibux' (1), Command: autoattack
+08:11:19 D Command: Player 'Ibux' (1), Command: hail
+08:11:19 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:11:24 D Command: Player 'Ibux' (1), Command: q_accept_pending_quest
+08:11:24 D Client: Found 1 pending quests for char_id: 3
+08:11:24 D LUA: Quest: A Fine Halasian Welcome, function: Accepted
+08:11:24 D LUA: Done!
+08:11:24 D Client: Send Quest Journal...
+08:11:25 D Client: Found 1 active quests for char_id: 3
+08:11:29 D Player: Saving History for Player: 'Ibux'
+08:11:29 D Player: Saving LUA History for Player: 'Ibux'
+08:11:45 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:11:45 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:11:48 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:11:48 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:11:48 D Spell: Concentration is now 0 on Ibux
+08:11:48 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:11:51 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:11:51 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:11:51 D Spell: Concentration is now 0 on Ibux
+08:11:51 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:11:54 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:11:54 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:11:54 D Spell: Concentration is now 0 on Ibux
+08:11:55 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:11:55 D Command: Player 'Ibux' (1), Command: autoattack
+08:12:01 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:12:01 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:12:04 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:12:04 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:12:04 D Spell: Concentration is now 0 on Ibux
+08:12:04 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:12:04 D Command: Player 'Ibux' (1), Command: autoattack
+08:12:10 D Command: Player 'Ibux' (1), Command: hail
+08:12:10 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:12:13 D LUA: Quest: A Fine Halasian Welcome, function: quest_complete
+08:12:13 D LUA: Done!
+08:12:13 D Client: Send Quest Journal...
+08:12:13 D Client: Send Quest Journal...
+08:12:14 D Command: Player 'Ibux' (1), Command: accept_reward
+08:12:17 D Command: Player 'Ibux' (1), Command: q_accept_pending_quest
+08:12:17 D Client: Found 1 pending quests for char_id: 3
+08:12:17 D LUA: Quest: Stonefist's Art of Combat, function: Accepted
+08:12:17 D LUA: Done!
+08:12:17 D Client: Send Quest Journal...
+08:12:17 D Client: Found 1 active quests for char_id: 3
+08:12:28 D Command: Player 'Ibux' (1), Command: hail
+08:12:28 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:12:29 D Player: Saving History for Player: 'Ibux'
+08:12:29 D Player: Saving LUA History for Player: 'Ibux'
+08:12:35 D Command: Player 'Ibux' (1), Command: q_accept_pending_quest
+08:12:35 D Client: Found 1 pending quests for char_id: 3
+08:12:35 D LUA: Quest: Tutorial: Learning to Harvest, function: Accepted
+08:12:35 D LUA: Done!
+08:12:35 D Client: Send Quest Journal...
+08:12:35 D Client: Found 1 active quests for char_id: 3
+08:12:40 D Command: Player 'Ibux' (1), Command: hail
+08:12:40 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:12:40 D LUA: Quest: Stonefist's Art of Combat, function: TalkedToStonefist
+08:12:40 D LUA: Done!
+08:12:40 D Client: Send Quest Journal...
+08:12:46 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:12:48 D Command: Player 'Ibux' (1), Command: useability
+08:12:48 D LUA: Found LUA Spell Script: 'Spells/Mage/Sorcerer/Wizard/SolarFlare.lua'
+08:12:50 D LUA: Quest: Stonefist's Art of Combat, function: KilledSparringPartner
+08:12:50 D LUA: Done!
+08:12:50 D Client: Send Quest Journal...
+08:12:50 D World: Setting Global XP Rate to: 2.00
+08:12:50 D Player: Player: Ibux earned 32 experience.
+08:12:50 D Combat: Zone Killing 'a weak sparring partner'
+08:12:50 D Spell: Concentration is now 0 on Ibux
+08:12:50 D Client: Found 1 active quests for char_id: 3
+08:12:51 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:12:51 D Command: Player 'Ibux' (1), Command: autoattack
+08:12:54 D Command: Player 'Ibux' (1), Command: hail
+08:12:54 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:12:55 D LUA: Quest: Stonefist's Art of Combat, function: ReturnedToStonefist
+08:12:55 D LUA: Done!
+08:12:56 D Client: Send Quest Journal...
+08:13:02 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:13:02 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:13:05 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:13:05 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:13:05 D Spell: Concentration is now 0 on Ibux
+08:13:05 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:13:05 D Command: Player 'Ibux' (1), Command: autoattack
+08:13:13 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:13:13 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:13:16 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:13:16 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:13:16 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:13:16 D Spell: Concentration is now 0 on Ibux
+08:13:16 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:13:16 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:13:17 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:13:19 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:13:19 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:13:19 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:13:19 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:13:19 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:13:19 D Spell: Concentration is now 0 on Ibux
+08:13:21 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:13:21 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:13:21 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:13:24 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:13:24 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:13:24 D Spell: Concentration is now 0 on Ibux
+08:13:24 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:13:24 D Command: Player 'Ibux' (1), Command: autoattack
+08:13:29 D Player: Saving History for Player: 'Ibux'
+08:13:29 D Player: Saving LUA History for Player: 'Ibux'
+08:13:32 D Command: Player 'Ibux' (1), Command: hail
+08:13:32 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:13:33 D LUA: Quest: Stonefist's Art of Combat, function: ReturnToYasha
+08:13:33 D LUA: Done!
+08:13:33 D Client: Send Quest Journal...
+08:13:33 D Client: Send Quest Journal...
+08:13:33 D Client: Found 1 active quests for char_id: 3
+08:13:42 D Command: Player 'Ibux' (1), Command: accept_reward
+08:13:46 D Command: Player 'Ibux' (1), Command: q_accept_pending_quest
+08:13:46 D Client: Found 1 pending quests for char_id: 3
+08:13:46 D LUA: Quest: Call to Arms, function: Accepted
+08:13:46 D LUA: Done!
+08:13:46 D Client: Send Quest Journal...
+08:13:46 D Client: Found 1 active quests for char_id: 3
+08:13:50 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:13:51 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:13:53 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:13:53 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:13:53 D Spell: Concentration is now 0 on Ibux
+08:13:54 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:13:57 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:13:57 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:13:57 D Spell: Concentration is now 0 on Ibux
+08:14:05 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:14:08 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:14:08 D LUA: Quest: Tutorial: Learning to Harvest, function: RawhidePelt
+08:14:08 D LUA: Done!
+08:14:08 D Client: Send Quest Journal...
+08:14:08 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:14:08 D Spell: Concentration is now 0 on Ibux
+08:14:08 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:14:08 D Command: Player 'Ibux' (1), Command: autoattack
+08:14:17 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:14:17 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:14:20 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:14:20 D Client: Send Quest Journal...
+08:14:20 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:14:20 D Spell: Concentration is now 0 on Ibux
+08:14:20 D Client: Found 1 active quests for char_id: 3
+08:14:21 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:14:24 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:14:24 D Client: Send Quest Journal...
+08:14:24 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:14:24 D Spell: Concentration is now 0 on Ibux
+08:14:24 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:14:27 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:14:27 D LUA: Quest: Tutorial: Learning to Harvest, function: Root
+08:14:27 D LUA: Done!
+08:14:27 D Client: Send Quest Journal...
+08:14:27 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:14:27 D Spell: Concentration is now 0 on Ibux
+08:14:27 D Client: Found 1 active quests for char_id: 3
+08:14:27 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:14:27 D Command: Player 'Ibux' (1), Command: autoattack
+08:14:29 D Player: Saving History for Player: 'Ibux'
+08:14:29 D Player: Saving LUA History for Player: 'Ibux'
+08:14:32 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:14:32 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:14:35 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:14:35 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:14:35 D Spell: Concentration is now 0 on Ibux
+08:14:36 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:14:39 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:14:39 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:14:39 D Spell: Concentration is now 0 on Ibux
+08:14:40 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:14:43 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:14:43 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:14:43 D Spell: Concentration is now 0 on Ibux
+08:14:43 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:14:43 D Command: Player 'Ibux' (1), Command: autoattack
+08:15:07 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:15:07 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:15:09 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:15:09 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:15:09 D Spell: Concentration is now 0 on Ibux
+08:15:10 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:15:11 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:15:13 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:15:13 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:15:13 D Spell: Concentration is now 0 on Ibux
+08:15:13 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:15:14 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:15:14 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:15:14 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:15:17 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:15:17 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:15:17 D Spell: Concentration is now 0 on Ibux
+08:15:17 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:15:17 D Command: Player 'Ibux' (1), Command: autoattack
+08:15:22 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:15:22 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:15:25 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:15:25 D Client: Send Quest Journal...
+08:15:25 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:15:25 D Spell: Concentration is now 0 on Ibux
+08:15:26 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:15:26 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:15:26 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:15:28 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:15:29 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:15:29 D Spell: Concentration is now 0 on Ibux
+08:15:29 D Player: Saving History for Player: 'Ibux'
+08:15:29 D Player: Saving LUA History for Player: 'Ibux'
+08:15:29 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:15:29 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:15:32 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:15:32 D LUA: Quest: Tutorial: Learning to Harvest, function: LeadCluster
+08:15:32 D LUA: Done!
+08:15:32 D Client: Send Quest Journal...
+08:15:32 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:15:32 D Spell: Concentration is now 0 on Ibux
+08:15:32 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:15:32 D Client: Found 1 active quests for char_id: 3
+08:15:32 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:15:32 D Command: Player 'Ibux' (1), Command: autoattack
+08:15:37 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:15:37 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:15:37 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:15:39 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:15:40 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:15:40 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:15:40 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:15:40 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:15:40 D Spell: Concentration is now 0 on Ibux
+08:15:40 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:15:40 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:15:41 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:15:41 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:15:43 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:15:43 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:15:43 D Spell: Concentration is now 0 on Ibux
+08:15:43 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:15:44 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:15:44 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:15:44 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:15:46 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:15:46 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:15:46 D Spell: Concentration is now 0 on Ibux
+08:15:46 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:15:46 D Command: Player 'Ibux' (1), Command: autoattack
+08:15:50 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:15:50 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:15:53 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:15:53 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:15:53 D Spell: Concentration is now 0 on Ibux
+08:15:53 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:15:54 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:15:54 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:15:56 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:15:56 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:15:56 D Spell: Concentration is now 0 on Ibux
+08:15:57 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:16:00 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:16:00 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:16:00 D Spell: Concentration is now 0 on Ibux
+08:16:00 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:16:00 D Command: Player 'Ibux' (1), Command: autoattack
+08:16:12 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:16:12 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:16:15 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:16:15 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:16:15 D Spell: Concentration is now 0 on Ibux
+08:16:15 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:16:15 D Command: Player 'Ibux' (1), Command: autoattack
+08:16:17 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:16:17 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:16:20 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:16:20 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:16:20 D Spell: Concentration is now 0 on Ibux
+08:16:20 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:16:23 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:16:23 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:16:23 D Spell: Concentration is now 0 on Ibux
+08:16:24 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:16:27 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:16:27 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:16:27 D Spell: Concentration is now 0 on Ibux
+08:16:27 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:16:27 D Command: Player 'Ibux' (1), Command: autoattack
+08:16:29 D Player: Saving History for Player: 'Ibux'
+08:16:29 D Player: Saving LUA History for Player: 'Ibux'
+08:16:31 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:16:31 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:16:34 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:16:34 D Client: Send Quest Journal...
+08:16:34 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:16:34 D Spell: Concentration is now 0 on Ibux
+08:16:34 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:16:37 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:16:37 D Client: Send Quest Journal...
+08:16:37 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:16:37 D Spell: Concentration is now 0 on Ibux
+08:16:37 D Client: Found 1 active quests for char_id: 3
+08:16:38 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:16:40 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:16:40 D LUA: Quest: Tutorial: Learning to Harvest, function: Lumber
+08:16:40 D LUA: Done!
+08:16:40 D Client: Send Quest Journal...
+08:16:40 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:16:40 D Spell: Concentration is now 0 on Ibux
+08:16:41 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:16:41 D Command: Player 'Ibux' (1), Command: autoattack
+08:16:48 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:16:48 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:16:50 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:16:50 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:16:50 D Spell: Concentration is now 0 on Ibux
+08:16:51 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:16:54 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:16:54 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:16:54 D Spell: Concentration is now 0 on Ibux
+08:16:54 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:16:57 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:16:57 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:16:57 D Spell: Concentration is now 0 on Ibux
+08:16:57 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:16:57 D Command: Player 'Ibux' (1), Command: autoattack
+08:17:01 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:17:01 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:17:04 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:17:04 D Client: Send Quest Journal...
+08:17:04 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:17:04 D Spell: Concentration is now 0 on Ibux
+08:17:04 D Client: Found 1 active quests for char_id: 3
+08:17:05 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:17:07 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:17:07 D Client: Send Quest Journal...
+08:17:07 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:17:07 D Spell: Concentration is now 0 on Ibux
+08:17:08 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:17:11 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:17:11 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:17:11 D Spell: Concentration is now 0 on Ibux
+08:17:11 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:17:11 D Command: Player 'Ibux' (1), Command: autoattack
+08:17:29 D Player: Saving History for Player: 'Ibux'
+08:17:29 D Player: Saving LUA History for Player: 'Ibux'
+08:17:35 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:17:35 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:17:38 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:17:38 D LUA: Quest: Tutorial: Learning to Harvest, function: Sunfish
+08:17:38 D LUA: Done!
+08:17:38 D Client: Send Quest Journal...
+08:17:38 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:17:38 D Spell: Concentration is now 0 on Ibux
+08:17:38 D Client: Found 1 active quests for char_id: 3
+08:17:58 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:17:58 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:18:01 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:18:01 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:18:01 D Spell: Concentration is now 0 on Ibux
+08:18:01 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:18:04 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:18:04 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:18:04 D Spell: Concentration is now 0 on Ibux
+08:18:05 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:18:07 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:18:07 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:18:07 D Spell: Concentration is now 0 on Ibux
+08:18:08 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:18:08 D Command: Player 'Ibux' (1), Command: autoattack
+08:18:12 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:18:12 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:18:15 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:18:15 D Client: Send Quest Journal...
+08:18:15 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:18:15 D Spell: Concentration is now 0 on Ibux
+08:18:15 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:18:18 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:18:18 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:18:18 D Spell: Concentration is now 0 on Ibux
+08:18:19 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:18:21 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:18:21 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:18:22 D Spell: Concentration is now 0 on Ibux
+08:18:22 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:18:22 D Command: Player 'Ibux' (1), Command: autoattack
+08:18:25 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:18:25 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:18:28 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:18:28 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:18:28 D Spell: Concentration is now 0 on Ibux
+08:18:28 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:18:29 D Player: Saving History for Player: 'Ibux'
+08:18:29 D Player: Saving LUA History for Player: 'Ibux'
+08:18:31 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:18:31 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:18:31 D Spell: Concentration is now 0 on Ibux
+08:18:32 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:18:35 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:18:35 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:18:35 D Spell: Concentration is now 0 on Ibux
+08:18:35 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:18:35 D Command: Player 'Ibux' (1), Command: autoattack
+08:18:41 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:18:41 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:18:44 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:18:44 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:18:44 D Spell: Concentration is now 0 on Ibux
+08:18:44 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:18:47 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:18:47 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:18:47 D Spell: Concentration is now 0 on Ibux
+08:18:48 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:18:51 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:18:51 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:18:51 D Spell: Concentration is now 0 on Ibux
+08:18:51 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:18:51 D Command: Player 'Ibux' (1), Command: autoattack
+08:18:55 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:18:55 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:18:58 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:18:58 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:18:58 D Spell: Concentration is now 0 on Ibux
+08:19:07 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:19:09 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:19:10 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:19:10 D Spell: Concentration is now 0 on Ibux
+08:19:11 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:19:13 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:19:13 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:19:13 D Spell: Concentration is now 0 on Ibux
+08:19:13 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:19:13 D Command: Player 'Ibux' (1), Command: autoattack
+08:19:19 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:19:19 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:19:21 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:19:21 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:19:21 D Spell: Concentration is now 0 on Ibux
+08:19:22 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:19:25 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:19:25 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:19:25 D Spell: Concentration is now 0 on Ibux
+08:19:26 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:19:28 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:19:28 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:19:28 D Spell: Concentration is now 0 on Ibux
+08:19:29 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:19:29 D Command: Player 'Ibux' (1), Command: autoattack
+08:19:29 D Player: Saving History for Player: 'Ibux'
+08:19:29 D Player: Saving LUA History for Player: 'Ibux'
+08:19:49 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:19:49 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:19:52 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:19:52 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:19:52 D Spell: Concentration is now 0 on Ibux
+08:19:52 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:19:55 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:19:55 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:19:55 D Spell: Concentration is now 0 on Ibux
+08:19:56 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:19:58 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:19:58 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:19:58 D Spell: Concentration is now 0 on Ibux
+08:19:59 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:19:59 D Command: Player 'Ibux' (1), Command: autoattack
+08:20:02 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:20:02 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:20:05 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:20:05 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:20:05 D Spell: Concentration is now 0 on Ibux
+08:20:07 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:20:07 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:20:08 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:20:08 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:20:10 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:20:10 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:20:10 D Spell: Concentration is now 0 on Ibux
+08:20:10 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:20:11 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:20:11 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:20:14 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:20:14 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:20:14 D Spell: Concentration is now 0 on Ibux
+08:20:14 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:20:14 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:20:14 D Command: Player 'Ibux' (1), Command: autoattack
+08:20:28 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:20:28 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:20:29 D Player: Saving History for Player: 'Ibux'
+08:20:29 D Player: Saving LUA History for Player: 'Ibux'
+08:20:30 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:20:30 D LUA: Quest: Tutorial: Learning to Harvest, function: TinCluster
+08:20:30 D LUA: Done!
+08:20:30 D Client: Send Quest Journal...
+08:20:30 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:20:30 D Spell: Concentration is now 0 on Ibux
+08:20:31 D Client: Found 1 active quests for char_id: 3
+08:20:49 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:20:49 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:20:52 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:20:52 D Client: Send Quest Journal...
+08:20:52 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:20:52 D Spell: Concentration is now 0 on Ibux
+08:20:52 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:20:55 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:20:55 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:20:55 D Spell: Concentration is now 0 on Ibux
+08:20:56 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:20:58 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:20:58 D LUA: Quest: Tutorial: Learning to Harvest, function: Jumjum
+08:20:58 D LUA: Done!
+08:20:58 D Client: Send Quest Journal...
+08:20:58 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:20:59 D Spell: Concentration is now 0 on Ibux
+08:20:59 D Client: Found 1 active quests for char_id: 3
+08:20:59 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:20:59 D Command: Player 'Ibux' (1), Command: autoattack
+08:21:21 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:21:21 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:21:23 D Command: Player 'Ibux' (1), Command: smp
+08:21:24 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:21:24 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:21:24 D Spell: Concentration is now 0 on Ibux
+08:21:29 D Player: Saving History for Player: 'Ibux'
+08:21:29 D Player: Saving LUA History for Player: 'Ibux'
+08:21:32 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:21:33 D Command: Player 'Ibux' (1), Command: smp
+08:21:34 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:21:34 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:21:34 D Spell: Concentration is now 0 on Ibux
+08:21:35 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:21:38 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:21:38 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:21:38 D Spell: Concentration is now 0 on Ibux
+08:21:38 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:21:38 D Command: Player 'Ibux' (1), Command: autoattack
+08:21:43 D Command: Player 'Ibux' (1), Command: smp
+08:21:45 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+08:21:45 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:21:48 D GSpawn: Process harvesting for player 'Ibux' (2)
+08:21:48 D GSpawn: Process harvest complete for player 'Ibux' (2)
+08:21:48 D Spell: Concentration is now 0 on Ibux
+08:21:48 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:21:48 D Command: Player 'Ibux' (1), Command: autoattack
+08:21:53 D Command: Player 'Ibux' (1), Command: smp
+08:22:08 D Command: Player 'Ibux' (1), Command: hail
+08:22:08 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:22:08 D LUA: Quest: Tutorial: Learning to Harvest, function: CompleteQuest
+08:22:08 D LUA: Done!
+08:22:08 D Client: Send Quest Journal...
+08:22:08 D Client: Send Quest Journal...
+08:22:08 D Client: Found 1 active quests for char_id: 3
+08:22:09 D Command: Player 'Ibux' (1), Command: accept_reward
+08:22:20 D Command: Player 'Ibux' (1), Command: bank
+08:22:20 D Players: Open Player Personal Bank...
+08:22:20 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+08:22:21 D Command: Player 'Ibux' (1), Command: smp
+08:22:26 D Command: Player 'Ibux' (1), Command: info
+08:22:29 D Player: Saving History for Player: 'Ibux'
+08:22:29 D Player: Saving LUA History for Player: 'Ibux'
+08:22:31 D Command: Player 'Ibux' (1), Command: smp
+08:22:37 D Command: Player 'Ibux' (1), Command: inventory
+08:22:37 I Command: command: inventory
+08:22:38 D Command: Player 'Ibux' (1), Command: info
+08:22:41 D Command: Player 'Ibux' (1), Command: smp
+08:22:41 D Command: Player 'Ibux' (1), Command: inventory
+08:22:41 I Command: command: inventory
+08:22:48 D Command: Player 'Ibux' (1), Command: cancel_bank
+08:23:29 D Player: Saving History for Player: 'Ibux'
+08:23:29 D Player: Saving LUA History for Player: 'Ibux'
+08:24:29 D Player: Saving History for Player: 'Ibux'
+08:24:29 D Player: Saving LUA History for Player: 'Ibux'
+08:25:29 D Player: Saving History for Player: 'Ibux'
+08:25:29 D Player: Saving LUA History for Player: 'Ibux'
+08:26:29 D Player: Saving History for Player: 'Ibux'
+08:26:29 D Player: Saving LUA History for Player: 'Ibux'
+08:27:29 D Player: Saving History for Player: 'Ibux'
+08:27:29 D Player: Saving LUA History for Player: 'Ibux'
+08:28:29 D Player: Saving History for Player: 'Ibux'
+08:28:29 D Player: Saving LUA History for Player: 'Ibux'
+08:29:29 D Player: Saving History for Player: 'Ibux'
+08:29:29 D Player: Saving LUA History for Player: 'Ibux'
+08:30:29 D Player: Saving History for Player: 'Ibux'
+08:30:29 D Player: Saving LUA History for Player: 'Ibux'
+08:31:29 D Player: Saving History for Player: 'Ibux'
+08:31:29 D Player: Saving LUA History for Player: 'Ibux'
+08:32:29 D Player: Saving History for Player: 'Ibux'
+08:32:29 D Player: Saving LUA History for Player: 'Ibux'
+08:33:29 D Player: Saving History for Player: 'Ibux'
+08:33:29 D Player: Saving LUA History for Player: 'Ibux'
+08:34:29 D Player: Saving History for Player: 'Ibux'
+08:34:29 D Player: Saving LUA History for Player: 'Ibux'
+08:35:29 D Player: Saving History for Player: 'Ibux'
+08:35:29 D Player: Saving LUA History for Player: 'Ibux'
+08:36:29 D Player: Saving History for Player: 'Ibux'
+08:36:29 D Player: Saving LUA History for Player: 'Ibux'
+08:37:29 D Player: Saving History for Player: 'Ibux'
+08:37:29 D Player: Saving LUA History for Player: 'Ibux'
+08:38:29 D Player: Saving History for Player: 'Ibux'
+08:38:29 D Player: Saving LUA History for Player: 'Ibux'
+08:39:29 D Player: Saving History for Player: 'Ibux'
+08:39:29 D Player: Saving LUA History for Player: 'Ibux'
+08:40:29 D Player: Saving History for Player: 'Ibux'
+08:40:29 D Player: Saving LUA History for Player: 'Ibux'
+08:41:29 D Player: Saving History for Player: 'Ibux'
+08:41:29 D Player: Saving LUA History for Player: 'Ibux'
+08:42:29 D Player: Saving History for Player: 'Ibux'
+08:42:29 D Player: Saving LUA History for Player: 'Ibux'
+08:43:29 D Player: Saving History for Player: 'Ibux'
+08:43:29 D Player: Saving LUA History for Player: 'Ibux'
+08:44:29 D Player: Saving History for Player: 'Ibux'
+08:44:29 D Player: Saving LUA History for Player: 'Ibux'
+08:45:29 D Player: Saving History for Player: 'Ibux'
+08:45:29 D Player: Saving LUA History for Player: 'Ibux'
+08:46:29 D Player: Saving History for Player: 'Ibux'
+08:46:29 D Player: Saving LUA History for Player: 'Ibux'
+08:47:29 D Player: Saving History for Player: 'Ibux'
+08:47:29 D Player: Saving LUA History for Player: 'Ibux'
+08:48:29 D Player: Saving History for Player: 'Ibux'
+08:48:29 D Player: Saving LUA History for Player: 'Ibux'
+08:49:29 D Player: Saving History for Player: 'Ibux'
+08:49:29 D Player: Saving LUA History for Player: 'Ibux'
+08:50:29 D Player: Saving History for Player: 'Ibux'
+08:50:29 D Player: Saving LUA History for Player: 'Ibux'
+08:51:29 D Player: Saving History for Player: 'Ibux'
+08:51:29 D Player: Saving LUA History for Player: 'Ibux'
+08:52:29 D Player: Saving History for Player: 'Ibux'
+08:52:29 D Player: Saving LUA History for Player: 'Ibux'
+08:53:29 D Player: Saving History for Player: 'Ibux'
+08:53:29 D Player: Saving LUA History for Player: 'Ibux'
+08:54:29 D Player: Saving History for Player: 'Ibux'
+08:54:29 D Player: Saving LUA History for Player: 'Ibux'
+08:55:29 D Player: Saving History for Player: 'Ibux'
+08:55:29 D Player: Saving LUA History for Player: 'Ibux'
+08:56:29 D Player: Saving History for Player: 'Ibux'
+08:56:29 D Player: Saving LUA History for Player: 'Ibux'
+08:57:29 D Player: Saving History for Player: 'Ibux'
+08:57:29 D Player: Saving LUA History for Player: 'Ibux'
+08:58:29 D Player: Saving History for Player: 'Ibux'
+08:58:29 D Player: Saving LUA History for Player: 'Ibux'
+08:59:29 D Player: Saving History for Player: 'Ibux'
+08:59:29 D Player: Saving LUA History for Player: 'Ibux'
+09:00:29 D Player: Saving History for Player: 'Ibux'
+09:00:29 D Player: Saving LUA History for Player: 'Ibux'
+09:01:29 D Player: Saving History for Player: 'Ibux'
+09:01:29 D Player: Saving LUA History for Player: 'Ibux'
+09:02:29 D Player: Saving History for Player: 'Ibux'
+09:02:29 D Player: Saving LUA History for Player: 'Ibux'
+09:03:29 D Player: Saving History for Player: 'Ibux'
+09:03:29 D Player: Saving LUA History for Player: 'Ibux'
+09:04:29 D Player: Saving History for Player: 'Ibux'
+09:04:29 D Player: Saving LUA History for Player: 'Ibux'
+09:05:29 D Player: Saving History for Player: 'Ibux'
+09:05:29 D Player: Saving LUA History for Player: 'Ibux'
+09:06:29 D Player: Saving History for Player: 'Ibux'
+09:06:29 D Player: Saving LUA History for Player: 'Ibux'
+09:07:29 D Player: Saving History for Player: 'Ibux'
+09:07:29 D Player: Saving LUA History for Player: 'Ibux'
+09:08:29 D Player: Saving History for Player: 'Ibux'
+09:08:29 D Player: Saving LUA History for Player: 'Ibux'
+09:09:29 D Player: Saving History for Player: 'Ibux'
+09:09:29 D Player: Saving LUA History for Player: 'Ibux'
+09:10:29 D Player: Saving History for Player: 'Ibux'
+09:10:29 D Player: Saving LUA History for Player: 'Ibux'
+09:11:29 D Player: Saving History for Player: 'Ibux'
+09:11:29 D Player: Saving LUA History for Player: 'Ibux'
+09:12:29 D Player: Saving History for Player: 'Ibux'
+09:12:29 D Player: Saving LUA History for Player: 'Ibux'
+09:13:29 D Player: Saving History for Player: 'Ibux'
+09:13:29 D Player: Saving LUA History for Player: 'Ibux'
+09:14:29 D Player: Saving History for Player: 'Ibux'
+09:14:29 D Player: Saving LUA History for Player: 'Ibux'
+09:15:29 D Player: Saving History for Player: 'Ibux'
+09:15:29 D Player: Saving LUA History for Player: 'Ibux'
+09:16:29 D Player: Saving History for Player: 'Ibux'
+09:16:29 D Player: Saving LUA History for Player: 'Ibux'
+09:17:29 D Player: Saving History for Player: 'Ibux'
+09:17:29 D Player: Saving LUA History for Player: 'Ibux'
+09:18:29 D Player: Saving History for Player: 'Ibux'
+09:18:29 D Player: Saving LUA History for Player: 'Ibux'
+09:19:29 D Player: Saving History for Player: 'Ibux'
+09:19:29 D Player: Saving LUA History for Player: 'Ibux'
+09:20:29 D Player: Saving History for Player: 'Ibux'
+09:20:29 D Player: Saving LUA History for Player: 'Ibux'
+09:21:29 D Player: Saving History for Player: 'Ibux'
+09:21:29 D Player: Saving LUA History for Player: 'Ibux'
+09:22:29 D Player: Saving History for Player: 'Ibux'
+09:22:29 D Player: Saving LUA History for Player: 'Ibux'
+09:23:29 D Player: Saving History for Player: 'Ibux'
+09:23:29 D Player: Saving LUA History for Player: 'Ibux'
+09:23:48 E LUA: LUA AddTimer command error: time is not set
+09:24:29 D Player: Saving History for Player: 'Ibux'
+09:24:29 D Player: Saving LUA History for Player: 'Ibux'
+09:25:29 D Player: Saving History for Player: 'Ibux'
+09:25:29 D Player: Saving LUA History for Player: 'Ibux'
+09:26:29 D Player: Saving History for Player: 'Ibux'
+09:26:29 D Player: Saving LUA History for Player: 'Ibux'
+09:27:29 D Player: Saving History for Player: 'Ibux'
+09:27:29 D Player: Saving LUA History for Player: 'Ibux'
+09:28:29 D Player: Saving History for Player: 'Ibux'
+09:28:29 D Player: Saving LUA History for Player: 'Ibux'
+09:29:29 D Player: Saving History for Player: 'Ibux'
+09:29:29 D Player: Saving LUA History for Player: 'Ibux'
+09:30:29 D Player: Saving History for Player: 'Ibux'
+09:30:29 D Player: Saving LUA History for Player: 'Ibux'
+09:31:29 D Player: Saving History for Player: 'Ibux'
+09:31:29 D Player: Saving LUA History for Player: 'Ibux'
+09:32:29 D Player: Saving History for Player: 'Ibux'
+09:32:29 D Player: Saving LUA History for Player: 'Ibux'
+09:33:29 D Player: Saving History for Player: 'Ibux'
+09:33:29 D Player: Saving LUA History for Player: 'Ibux'
+09:34:29 D Player: Saving History for Player: 'Ibux'
+09:34:29 D Player: Saving LUA History for Player: 'Ibux'
+09:35:29 D Player: Saving History for Player: 'Ibux'
+09:35:29 D Player: Saving LUA History for Player: 'Ibux'
+09:36:29 D Player: Saving History for Player: 'Ibux'
+09:36:29 D Player: Saving LUA History for Player: 'Ibux'
+09:37:29 D Player: Saving History for Player: 'Ibux'
+09:37:29 D Player: Saving LUA History for Player: 'Ibux'
+09:38:29 D Player: Saving History for Player: 'Ibux'
+09:38:29 D Player: Saving LUA History for Player: 'Ibux'
+09:39:29 D Player: Saving History for Player: 'Ibux'
+09:39:29 D Player: Saving LUA History for Player: 'Ibux'
+09:40:29 D Player: Saving History for Player: 'Ibux'
+09:40:29 D Player: Saving LUA History for Player: 'Ibux'
+09:41:29 D Player: Saving History for Player: 'Ibux'
+09:41:29 D Player: Saving LUA History for Player: 'Ibux'
+09:42:29 D Player: Saving History for Player: 'Ibux'
+09:42:29 D Player: Saving LUA History for Player: 'Ibux'
+09:43:29 D Player: Saving History for Player: 'Ibux'
+09:43:29 D Player: Saving LUA History for Player: 'Ibux'
+09:44:29 D Player: Saving History for Player: 'Ibux'
+09:44:29 D Player: Saving LUA History for Player: 'Ibux'
+09:45:29 D Player: Saving History for Player: 'Ibux'
+09:45:29 D Player: Saving LUA History for Player: 'Ibux'
+09:46:29 D Player: Saving History for Player: 'Ibux'
+09:46:29 D Player: Saving LUA History for Player: 'Ibux'
+09:47:29 D Player: Saving History for Player: 'Ibux'
+09:47:29 D Player: Saving LUA History for Player: 'Ibux'
+09:48:29 D Player: Saving History for Player: 'Ibux'
+09:48:29 D Player: Saving LUA History for Player: 'Ibux'
+09:49:29 D Player: Saving History for Player: 'Ibux'
+09:49:29 D Player: Saving LUA History for Player: 'Ibux'
+09:50:29 D Player: Saving History for Player: 'Ibux'
+09:50:29 D Player: Saving LUA History for Player: 'Ibux'
+09:51:29 D Player: Saving History for Player: 'Ibux'
+09:51:29 D Player: Saving LUA History for Player: 'Ibux'
+09:52:29 D Player: Saving History for Player: 'Ibux'
+09:52:29 D Player: Saving LUA History for Player: 'Ibux'
+09:53:29 D Player: Saving History for Player: 'Ibux'
+09:53:29 D Player: Saving LUA History for Player: 'Ibux'
+09:54:29 D Player: Saving History for Player: 'Ibux'
+09:54:29 D Player: Saving LUA History for Player: 'Ibux'
+09:55:29 D Player: Saving History for Player: 'Ibux'
+09:55:29 D Player: Saving LUA History for Player: 'Ibux'
+09:56:29 D Player: Saving History for Player: 'Ibux'
+09:56:29 D Player: Saving LUA History for Player: 'Ibux'
+09:57:29 D Player: Saving History for Player: 'Ibux'
+09:57:29 D Player: Saving LUA History for Player: 'Ibux'
+09:58:29 D Player: Saving History for Player: 'Ibux'
+09:58:29 D Player: Saving LUA History for Player: 'Ibux'
+09:59:29 D Player: Saving History for Player: 'Ibux'
+09:59:29 D Player: Saving LUA History for Player: 'Ibux'
+10:00:29 D Player: Saving History for Player: 'Ibux'
+10:00:29 D Player: Saving LUA History for Player: 'Ibux'
+10:01:29 D Player: Saving History for Player: 'Ibux'
+10:01:29 D Player: Saving LUA History for Player: 'Ibux'
+10:02:29 D Player: Saving History for Player: 'Ibux'
+10:02:29 D Player: Saving LUA History for Player: 'Ibux'
+10:03:29 D Player: Saving History for Player: 'Ibux'
+10:03:29 D Player: Saving LUA History for Player: 'Ibux'
+10:04:29 D Player: Saving History for Player: 'Ibux'
+10:04:29 D Player: Saving LUA History for Player: 'Ibux'
+10:05:29 D Player: Saving History for Player: 'Ibux'
+10:05:29 D Player: Saving LUA History for Player: 'Ibux'
+10:06:29 D Player: Saving History for Player: 'Ibux'
+10:06:29 D Player: Saving LUA History for Player: 'Ibux'
+10:07:29 D Player: Saving History for Player: 'Ibux'
+10:07:29 D Player: Saving LUA History for Player: 'Ibux'
+10:08:29 D Player: Saving History for Player: 'Ibux'
+10:08:29 D Player: Saving LUA History for Player: 'Ibux'
+10:09:29 D Player: Saving History for Player: 'Ibux'
+10:09:29 D Player: Saving LUA History for Player: 'Ibux'
+10:10:29 D Player: Saving History for Player: 'Ibux'
+10:10:29 D Player: Saving LUA History for Player: 'Ibux'
+10:11:29 D Player: Saving History for Player: 'Ibux'
+10:11:29 D Player: Saving LUA History for Player: 'Ibux'
+10:12:29 D Player: Saving History for Player: 'Ibux'
+10:12:29 D Player: Saving LUA History for Player: 'Ibux'
+10:13:29 D Player: Saving History for Player: 'Ibux'
+10:13:29 D Player: Saving LUA History for Player: 'Ibux'
+10:14:29 D Player: Saving History for Player: 'Ibux'
+10:14:29 D Player: Saving LUA History for Player: 'Ibux'
+10:15:29 D Player: Saving History for Player: 'Ibux'
+10:15:29 D Player: Saving LUA History for Player: 'Ibux'
+10:16:29 D Player: Saving History for Player: 'Ibux'
+10:16:29 D Player: Saving LUA History for Player: 'Ibux'
+10:17:29 D Player: Saving History for Player: 'Ibux'
+10:17:29 D Player: Saving LUA History for Player: 'Ibux'
+10:18:29 D Player: Saving History for Player: 'Ibux'
+10:18:29 D Player: Saving LUA History for Player: 'Ibux'
+10:19:29 D Player: Saving History for Player: 'Ibux'
+10:19:29 D Player: Saving LUA History for Player: 'Ibux'
+10:20:29 D Player: Saving History for Player: 'Ibux'
+10:20:29 D Player: Saving LUA History for Player: 'Ibux'
+10:21:29 D Player: Saving History for Player: 'Ibux'
+10:21:29 D Player: Saving LUA History for Player: 'Ibux'
+10:22:29 D Player: Saving History for Player: 'Ibux'
+10:22:29 D Player: Saving LUA History for Player: 'Ibux'
+10:23:29 D Player: Saving History for Player: 'Ibux'
+10:23:29 D Player: Saving LUA History for Player: 'Ibux'
+10:24:29 D Player: Saving History for Player: 'Ibux'
+10:24:29 D Player: Saving LUA History for Player: 'Ibux'
+10:25:29 D Player: Saving History for Player: 'Ibux'
+10:25:29 D Player: Saving LUA History for Player: 'Ibux'
+10:26:29 D Player: Saving History for Player: 'Ibux'
+10:26:29 D Player: Saving LUA History for Player: 'Ibux'
+10:27:29 D Player: Saving History for Player: 'Ibux'
+10:27:29 D Player: Saving LUA History for Player: 'Ibux'
+10:28:29 D Player: Saving History for Player: 'Ibux'
+10:28:29 D Player: Saving LUA History for Player: 'Ibux'
+10:29:29 D Player: Saving History for Player: 'Ibux'
+10:29:29 D Player: Saving LUA History for Player: 'Ibux'
+10:30:29 D Player: Saving History for Player: 'Ibux'
+10:30:29 D Player: Saving LUA History for Player: 'Ibux'
+10:31:29 D Player: Saving History for Player: 'Ibux'
+10:31:29 D Player: Saving LUA History for Player: 'Ibux'
+10:32:29 D Player: Saving History for Player: 'Ibux'
+10:32:29 D Player: Saving LUA History for Player: 'Ibux'
+10:33:29 D Player: Saving History for Player: 'Ibux'
+10:33:29 D Player: Saving LUA History for Player: 'Ibux'
+10:34:29 D Player: Saving History for Player: 'Ibux'
+10:34:29 D Player: Saving LUA History for Player: 'Ibux'
+10:35:29 D Player: Saving History for Player: 'Ibux'
+10:35:29 D Player: Saving LUA History for Player: 'Ibux'
+10:36:29 D Player: Saving History for Player: 'Ibux'
+10:36:29 D Player: Saving LUA History for Player: 'Ibux'
+10:37:29 D Player: Saving History for Player: 'Ibux'
+10:37:29 D Player: Saving LUA History for Player: 'Ibux'
+10:38:29 D Player: Saving History for Player: 'Ibux'
+10:38:29 D Player: Saving LUA History for Player: 'Ibux'
+10:39:29 D Player: Saving History for Player: 'Ibux'
+10:39:29 D Player: Saving LUA History for Player: 'Ibux'
+10:40:29 D Player: Saving History for Player: 'Ibux'
+10:40:29 D Player: Saving LUA History for Player: 'Ibux'
+10:41:29 D Player: Saving History for Player: 'Ibux'
+10:41:29 D Player: Saving LUA History for Player: 'Ibux'
+10:42:29 D Player: Saving History for Player: 'Ibux'
+10:42:29 D Player: Saving LUA History for Player: 'Ibux'
+10:43:29 D Player: Saving History for Player: 'Ibux'
+10:43:29 D Player: Saving LUA History for Player: 'Ibux'
+10:44:29 D Player: Saving History for Player: 'Ibux'
+10:44:29 D Player: Saving LUA History for Player: 'Ibux'
+10:45:29 D Player: Saving History for Player: 'Ibux'
+10:45:29 D Player: Saving LUA History for Player: 'Ibux'
+10:46:29 D Player: Saving History for Player: 'Ibux'
+10:46:29 D Player: Saving LUA History for Player: 'Ibux'
+10:47:29 D Player: Saving History for Player: 'Ibux'
+10:47:29 D Player: Saving LUA History for Player: 'Ibux'
+10:48:29 D Player: Saving History for Player: 'Ibux'
+10:48:29 D Player: Saving LUA History for Player: 'Ibux'
+10:49:29 D Player: Saving History for Player: 'Ibux'
+10:49:29 D Player: Saving LUA History for Player: 'Ibux'
+10:50:29 D Player: Saving History for Player: 'Ibux'
+10:50:29 D Player: Saving LUA History for Player: 'Ibux'
+10:51:29 D Player: Saving History for Player: 'Ibux'
+10:51:29 D Player: Saving LUA History for Player: 'Ibux'
+10:52:29 D Player: Saving History for Player: 'Ibux'
+10:52:29 D Player: Saving LUA History for Player: 'Ibux'
+10:53:29 D Player: Saving History for Player: 'Ibux'
+10:53:29 D Player: Saving LUA History for Player: 'Ibux'
+10:54:29 D Player: Saving History for Player: 'Ibux'
+10:54:29 D Player: Saving LUA History for Player: 'Ibux'
+10:55:29 D Player: Saving History for Player: 'Ibux'
+10:55:29 D Player: Saving LUA History for Player: 'Ibux'
+10:56:29 D Player: Saving History for Player: 'Ibux'
+10:56:29 D Player: Saving LUA History for Player: 'Ibux'
+10:57:29 D Player: Saving History for Player: 'Ibux'
+10:57:29 D Player: Saving LUA History for Player: 'Ibux'
+10:58:29 D Player: Saving History for Player: 'Ibux'
+10:58:29 D Player: Saving LUA History for Player: 'Ibux'
+10:59:29 D Player: Saving History for Player: 'Ibux'
+10:59:29 D Player: Saving LUA History for Player: 'Ibux'
+11:00:29 D Player: Saving History for Player: 'Ibux'
+11:00:29 D Player: Saving LUA History for Player: 'Ibux'
+11:01:29 D Player: Saving History for Player: 'Ibux'
+11:01:29 D Player: Saving LUA History for Player: 'Ibux'
+11:02:29 D Player: Saving History for Player: 'Ibux'
+11:02:29 D Player: Saving LUA History for Player: 'Ibux'
+11:03:29 D Player: Saving History for Player: 'Ibux'
+11:03:29 D Player: Saving LUA History for Player: 'Ibux'
+11:04:29 D Player: Saving History for Player: 'Ibux'
+11:04:29 D Player: Saving LUA History for Player: 'Ibux'
+11:05:29 D Player: Saving History for Player: 'Ibux'
+11:05:29 D Player: Saving LUA History for Player: 'Ibux'
+11:06:29 D Player: Saving History for Player: 'Ibux'
+11:06:29 D Player: Saving LUA History for Player: 'Ibux'
+11:07:29 D Player: Saving History for Player: 'Ibux'
+11:07:29 D Player: Saving LUA History for Player: 'Ibux'
+11:08:30 D Player: Saving History for Player: 'Ibux'
+11:08:30 D Player: Saving LUA History for Player: 'Ibux'
+11:09:29 D Player: Saving History for Player: 'Ibux'
+11:09:29 D Player: Saving LUA History for Player: 'Ibux'
+11:10:30 D Player: Saving History for Player: 'Ibux'
+11:10:30 D Player: Saving LUA History for Player: 'Ibux'
+11:11:30 D Player: Saving History for Player: 'Ibux'
+11:11:30 D Player: Saving LUA History for Player: 'Ibux'
+11:12:30 D Player: Saving History for Player: 'Ibux'
+11:12:30 D Player: Saving LUA History for Player: 'Ibux'
+11:13:30 D Player: Saving History for Player: 'Ibux'
+11:13:30 D Player: Saving LUA History for Player: 'Ibux'
+11:14:30 D Player: Saving History for Player: 'Ibux'
+11:14:30 D Player: Saving LUA History for Player: 'Ibux'
+11:15:30 D Player: Saving History for Player: 'Ibux'
+11:15:30 D Player: Saving LUA History for Player: 'Ibux'
+11:16:30 D Player: Saving History for Player: 'Ibux'
+11:16:30 D Player: Saving LUA History for Player: 'Ibux'
+11:17:30 D Player: Saving History for Player: 'Ibux'
+11:17:30 D Player: Saving LUA History for Player: 'Ibux'
+11:18:30 D Player: Saving History for Player: 'Ibux'
+11:18:30 D Player: Saving LUA History for Player: 'Ibux'
+11:19:30 D Player: Saving History for Player: 'Ibux'
+11:19:30 D Player: Saving LUA History for Player: 'Ibux'
+11:20:30 D Player: Saving History for Player: 'Ibux'
+11:20:30 D Player: Saving LUA History for Player: 'Ibux'
+11:21:30 D Player: Saving History for Player: 'Ibux'
+11:21:30 D Player: Saving LUA History for Player: 'Ibux'
+11:22:30 D Player: Saving History for Player: 'Ibux'
+11:22:30 D Player: Saving LUA History for Player: 'Ibux'
+11:23:30 D Player: Saving History for Player: 'Ibux'
+11:23:30 D Player: Saving LUA History for Player: 'Ibux'
+11:24:30 D Player: Saving History for Player: 'Ibux'
+11:24:30 D Player: Saving LUA History for Player: 'Ibux'
+11:25:30 D Player: Saving History for Player: 'Ibux'
+11:25:30 D Player: Saving LUA History for Player: 'Ibux'
+11:26:07 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+11:26:07 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+11:26:10 D GSpawn: Process harvesting for player 'Ibux' (2)
+11:26:10 D GSpawn: Process harvest complete for player 'Ibux' (2)
+11:26:10 D Spell: Concentration is now 0 on Ibux
+11:26:10 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+11:26:10 D Command: Player 'Ibux' (1), Command: autoattack
+11:26:22 D Command: Player 'Ibux' (1), Command: inventory
+11:26:22 I Command: command: inventory
+11:26:30 D Player: Saving History for Player: 'Ibux'
+11:26:30 D Player: Saving LUA History for Player: 'Ibux'
+11:26:44 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+11:26:48 D Command: Player 'Ibux' (1), Command: useability
+11:26:48 D LUA: Found LUA Spell Script: 'Spells/Mage/Sorcerer/Wizard/SolarFlare.lua'
+11:26:50 D Client: Send Quest Journal...
+11:26:50 D Player: Player: Ibux earned 34 experience.
+11:26:50 D Combat: Zone Killing 'a Ry'Gorr centurion'
+11:26:51 D Spell: Concentration is now 0 on Ibux
+11:26:51 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+11:26:51 D Command: Player 'Ibux' (1), Command: autoattack
+11:26:55 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+11:26:57 D Command: Player 'Ibux' (1), Command: useability
+11:26:57 D LUA: Found LUA Spell Script: 'Spells/Mage/Sorcerer/Wizard/SolarFlare.lua'
+11:26:59 D Spell: Concentration is now 0 on Ibux
+11:27:02 D Command: Player 'Ibux' (1), Command: useability
+11:27:02 D LUA: Found LUA Spell Script: 'Spells/Mage/Sorcerer/Wizard/SolarFlare.lua'
+11:27:03 D Combat: 'a Ry'Gorr centurion' interrupted spell for 'Ibux': 31%
+11:27:03 D Spell: 'a Ry'Gorr centurion' is Interrupting spell of 'Ibux'...
+11:27:04 D Client: Send Quest Journal...
+11:27:04 D Player: Player: Ibux earned 34 experience.
+11:27:04 D Combat: Zone Killing 'a Ry'Gorr centurion'
+11:27:04 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+11:27:04 D Command: Player 'Ibux' (1), Command: autoattack
+11:27:06 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+11:27:08 D Command: Player 'Ibux' (1), Command: useability
+11:27:08 D LUA: Found LUA Spell Script: 'Spells/Mage/Sorcerer/Wizard/SolarFlare.lua'
+11:27:10 D Spell: Concentration is now 0 on Ibux
+11:27:13 D Command: Player 'Ibux' (1), Command: useability
+11:27:13 D LUA: Found LUA Spell Script: 'Spells/Mage/Sorcerer/Wizard/SolarFlare.lua'
+11:27:15 D Client: Send Quest Journal...
+11:27:15 D Player: Player: Ibux earned 34 experience.
+11:27:15 D Combat: Zone Killing 'a Ry'Gorr centurion'
+11:27:15 D Spell: Concentration is now 0 on Ibux
+11:27:15 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+11:27:15 D Command: Player 'Ibux' (1), Command: autoattack
+11:27:23 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+11:27:24 D Command: Player 'Ibux' (1), Command: useability
+11:27:24 D LUA: Found LUA Spell Script: 'Spells/Mage/Sorcerer/Wizard/SolarFlare.lua'
+11:27:25 D Combat: 'a Ry'Gorr centurion' interrupted spell for 'Ibux': 31%
+11:27:25 D Spell: 'a Ry'Gorr centurion' is Interrupting spell of 'Ibux'...
+11:27:28 D Command: Player 'Ibux' (1), Command: useability
+11:27:28 D LUA: Found LUA Spell Script: 'Spells/Mage/Sorcerer/Wizard/SolarFlare.lua'
+11:27:30 D Player: Saving History for Player: 'Ibux'
+11:27:30 D Player: Saving LUA History for Player: 'Ibux'
+11:27:30 D LUA: Quest: Call to Arms, function: KilledOrcs
+11:27:30 D LUA: Done!
+11:27:30 D Client: Send Quest Journal...
+11:27:30 D Player: Player: Ibux earned 34 experience.
+11:27:30 D Combat: Zone Killing 'a Ry'Gorr centurion'
+11:27:30 D Spell: Concentration is now 0 on Ibux
+11:27:30 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+11:27:30 D Command: Player 'Ibux' (1), Command: autoattack
+11:27:32 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+11:27:43 D Player: Player: Ibux earned 34 experience.
+11:27:43 D Combat: Zone Killing 'a Ry'Gorr centurion'
+11:27:43 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+11:27:43 D Command: Player 'Ibux' (1), Command: autoattack
+11:27:44 D Command: Player 'Ibux' (1), Command: useability
+11:27:44 D LUA: Found LUA Spell Script: 'Spells/Mage/Sorcerer/Wizard/SolarFlare.lua'
+11:27:45 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+11:27:49 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+11:27:49 D Command: Player 'Ibux' (1), Command: autoattack
+11:28:02 D Command: Player 'Ibux' (1), Command: hail
+11:28:02 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+11:28:03 D LUA: Quest: Call to Arms, function: TalkedYasha
+11:28:03 D LUA: Done!
+11:28:03 D Client: Send Quest Journal...
+11:28:03 D Client: Send Quest Journal...
+11:28:03 D World: Player: Ibux leveled from 1 to 2
+11:28:07 D Command: Player 'Ibux' (1), Command: accept_reward
+11:28:09 D Command: Player 'Ibux' (1), Command: inventory
+11:28:09 I Command: command: inventory
+11:28:11 D Command: Player 'Ibux' (1), Command: attune_inv
+11:28:13 D Command: Player 'Ibux' (1), Command: inventory
+11:28:13 I Command: command: inventory
+11:28:14 D Command: Player 'Ibux' (1), Command: attune_inv
+11:28:15 D Command: Player 'Ibux' (1), Command: inventory
+11:28:15 I Command: command: inventory
+11:28:16 D Command: Player 'Ibux' (1), Command: attune_inv
+11:28:17 D Command: Player 'Ibux' (1), Command: inventory
+11:28:17 I Command: command: inventory
+11:28:18 D Command: Player 'Ibux' (1), Command: attune_inv
+11:28:19 D Command: Player 'Ibux' (1), Command: inventory
+11:28:19 I Command: command: inventory
+11:28:20 D Command: Player 'Ibux' (1), Command: attune_inv
+11:28:21 D Command: Player 'Ibux' (1), Command: inventory
+11:28:21 I Command: command: inventory
+11:28:23 D Command: Player 'Ibux' (1), Command: inventory
+11:28:23 I Command: command: inventory
+11:28:25 D Command: Player 'Ibux' (1), Command: inventory
+11:28:25 I Command: command: inventory
+11:28:26 D Command: Player 'Ibux' (1), Command: attune_inv
+11:28:29 D Command: Player 'Ibux' (1), Command: inventory
+11:28:29 I Command: command: inventory
+11:28:30 D Player: Saving History for Player: 'Ibux'
+11:28:30 D Player: Saving LUA History for Player: 'Ibux'
+11:28:30 D Command: Player 'Ibux' (1), Command: attune_inv
+11:28:32 D Command: Player 'Ibux' (1), Command: inventory
+11:28:32 I Command: command: inventory
+11:28:33 D Command: Player 'Ibux' (1), Command: attune_inv
+11:28:34 D Command: Player 'Ibux' (1), Command: inventory
+11:28:34 I Command: command: inventory
+11:28:35 D Command: Player 'Ibux' (1), Command: attune_inv
+11:28:38 D Command: Player 'Ibux' (1), Command: inventory
+11:28:38 I Command: command: inventory
+11:28:39 D Command: Player 'Ibux' (1), Command: inventory
+11:28:39 I Command: command: inventory
+11:28:40 D Command: Player 'Ibux' (1), Command: inventory
+11:28:40 I Command: command: inventory
+11:28:44 D Command: Player 'Ibux' (1), Command: inventory
+11:28:44 I Command: command: inventory
+11:28:44 D Items: Deleting item_id 191144 for player 3
+11:28:46 D Command: Player 'Ibux' (1), Command: inventory
+11:28:46 I Command: command: inventory
+11:28:46 D Items: Deleting item_id 191145 for player 3
+11:28:49 D Command: Player 'Ibux' (1), Command: inventory
+11:28:49 I Command: command: inventory
+11:28:49 D Items: Deleting item_id 90320 for player 3
+11:28:51 D Command: Player 'Ibux' (1), Command: inventory
+11:28:51 I Command: command: inventory
+11:28:51 D Items: Deleting item_id 175101 for player 3
+11:28:53 D Command: Player 'Ibux' (1), Command: inventory
+11:28:53 I Command: command: inventory
+11:28:53 D Items: Deleting item_id 191146 for player 3
+11:29:30 D Player: Saving History for Player: 'Ibux'
+11:29:30 D Player: Saving LUA History for Player: 'Ibux'
+11:30:30 D Player: Saving History for Player: 'Ibux'
+11:30:30 D Player: Saving LUA History for Player: 'Ibux'
+11:31:30 D Player: Saving History for Player: 'Ibux'
+11:31:30 D Player: Saving LUA History for Player: 'Ibux'
+11:31:34 D Command: Player 'Ibux' (1), Command: q_accept_pending_quest
+11:31:34 D Client: Found 1 pending quests for char_id: 3
+11:31:34 D LUA: Quest: Boatload of Work, function: Accepted
+11:31:34 D LUA: Done!
+11:31:34 D Client: Send Quest Journal...
+11:31:34 D Client: Found 1 active quests for char_id: 3
+11:31:39 D Command: Player 'Ibux' (1), Command: repair
+11:31:39 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+11:31:41 D Command: Player 'Ibux' (1), Command: cancel_merchant
+11:31:43 D Command: Player 'Ibux' (1), Command: hail
+11:31:48 D Command: Player 'Ibux' (1), Command: q_accept_pending_quest
+11:31:48 D Client: Found 1 pending quests for char_id: 3
+11:31:48 D LUA: Quest: If I Had A Hammer, function: Accepted
+11:31:48 D LUA: Done!
+11:31:48 D Client: Send Quest Journal...
+11:31:48 D Client: Found 1 active quests for char_id: 3
+11:32:16 D Sign: ActivateQuestRequired Sign - Command: 'pick up recipe'
+11:32:16 D LUA: Quest: If I Had A Hammer, function: GotRecipe
+11:32:16 D LUA: Done!
+11:32:16 D Client: Send Quest Journal...
+11:32:16 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+11:32:26 D Sign: ActivateQuestRequired Sign - Command: 'gather coal'
+11:32:26 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+11:32:27 D LUA: Quest: If I Had A Hammer, function: GotCoal
+11:32:27 D LUA: Done!
+11:32:27 D Client: Send Quest Journal...
+11:32:30 D Player: Saving History for Player: 'Ibux'
+11:32:30 D Player: Saving LUA History for Player: 'Ibux'
+11:32:33 D Command: Player 'Ibux' (1), Command: create
+11:32:33 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+11:32:46 D Command: Player 'Ibux' (1), Command: scribe_scroll_item
+11:32:46 D Items: ITEM ID: 32122
+11:32:46 D Recipe: Scribing recipe book Recipe: Lucky Wolf Paw Charm (32122) for player Ibux.
+11:32:46 D Recipe: Valid recipe book that the player doesn't have
+11:32:46 D Recipe: 1 recipes found for Recipe: Lucky Wolf Paw Charm book
+11:32:46 D Recipe: Done adding recipes
+11:32:46 D Items: Deleting item_id 32122 for player 3
+11:32:51 D Command: Player 'Ibux' (1), Command: create
+11:32:54 D Command: Player 'Ibux' (1), Command: createfromrecipe
+11:33:09 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+11:33:09 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+11:33:11 D GSpawn: Process harvesting for player 'Ibux' (2)
+11:33:11 D GSpawn: Process harvest complete for player 'Ibux' (2)
+11:33:12 D Spell: Concentration is now 0 on Ibux
+11:33:12 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+11:33:15 D GSpawn: Process harvesting for player 'Ibux' (2)
+11:33:15 D GSpawn: Process harvest complete for player 'Ibux' (2)
+11:33:15 D Spell: Concentration is now 0 on Ibux
+11:33:15 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+11:33:18 D GSpawn: Process harvesting for player 'Ibux' (2)
+11:33:18 D GSpawn: Process harvest complete for player 'Ibux' (2)
+11:33:18 D Spell: Concentration is now 0 on Ibux
+11:33:18 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+11:33:19 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+11:33:19 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+11:33:19 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+11:33:21 D GSpawn: Process harvesting for player 'Ibux' (2)
+11:33:21 D GSpawn: Process harvest complete for player 'Ibux' (2)
+11:33:21 D Spell: Concentration is now 0 on Ibux
+11:33:21 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+11:33:22 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+11:33:22 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+11:33:25 D GSpawn: Process harvesting for player 'Ibux' (2)
+11:33:25 D GSpawn: Process harvest complete for player 'Ibux' (2)
+11:33:25 D Spell: Concentration is now 0 on Ibux
+11:33:25 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+11:33:25 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+11:33:25 D Command: Player 'Ibux' (1), Command: autoattack
+11:33:30 D Player: Saving History for Player: 'Ibux'
+11:33:30 D Player: Saving LUA History for Player: 'Ibux'
+11:33:51 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+11:33:51 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+11:33:54 D GSpawn: Process harvesting for player 'Ibux' (2)
+11:33:54 D GSpawn: Process harvest complete for player 'Ibux' (2)
+11:33:54 D Spell: Concentration is now 0 on Ibux
+11:33:55 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+11:33:57 D GSpawn: Process harvesting for player 'Ibux' (2)
+11:33:57 D GSpawn: Process harvest complete for player 'Ibux' (2)
+11:33:58 D Spell: Concentration is now 0 on Ibux
+11:33:58 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+11:34:01 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+11:34:01 D GSpawn: Process harvesting for player 'Ibux' (2)
+11:34:01 D GSpawn: Process harvest complete for player 'Ibux' (2)
+11:34:01 D Spell: Concentration is now 0 on Ibux
+11:34:01 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+11:34:03 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+11:34:03 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+11:34:06 D GSpawn: Process harvesting for player 'Ibux' (2)
+11:34:06 D GSpawn: Process harvest complete for player 'Ibux' (2)
+11:34:06 D Spell: Concentration is now 0 on Ibux
+11:34:06 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+11:34:07 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+11:34:07 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+11:34:07 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+11:34:07 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+11:34:09 D GSpawn: Process harvesting for player 'Ibux' (2)
+11:34:09 D GSpawn: Process harvest complete for player 'Ibux' (2)
+11:34:10 D Spell: Concentration is now 0 on Ibux
+11:34:10 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+11:34:12 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+11:34:12 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+11:34:14 D GSpawn: Process harvesting for player 'Ibux' (2)
+11:34:14 D GSpawn: Process harvest complete for player 'Ibux' (2)
+11:34:14 D Spell: Concentration is now 0 on Ibux
+11:34:14 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+11:34:16 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+11:34:17 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+11:34:19 D GSpawn: Process harvesting for player 'Ibux' (2)
+11:34:19 D GSpawn: Process harvest complete for player 'Ibux' (2)
+11:34:19 D Spell: Concentration is now 0 on Ibux
+11:34:19 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+11:34:19 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+11:34:19 D Command: Player 'Ibux' (1), Command: autoattack
+11:34:29 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+11:34:29 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+11:34:30 D Player: Saving History for Player: 'Ibux'
+11:34:30 D Player: Saving LUA History for Player: 'Ibux'
+11:34:32 D GSpawn: Process harvesting for player 'Ibux' (2)
+11:34:32 D GSpawn: Process harvest complete for player 'Ibux' (2)
+11:34:32 D Spell: Concentration is now 0 on Ibux
+11:34:32 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+11:34:35 D GSpawn: Process harvesting for player 'Ibux' (2)
+11:34:35 D GSpawn: Process harvest complete for player 'Ibux' (2)
+11:34:35 D Spell: Concentration is now 0 on Ibux
+11:34:36 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+11:34:39 D GSpawn: Process harvesting for player 'Ibux' (2)
+11:34:39 D GSpawn: Process harvest complete for player 'Ibux' (2)
+11:34:39 D Spell: Concentration is now 0 on Ibux
+11:34:39 D LUA: Found LUA Spell Script: 'Spells/Commoner/harvest.lua'
+11:34:42 D GSpawn: Process harvesting for player 'Ibux' (2)
+11:34:42 D GSpawn: Process harvest complete for player 'Ibux' (2)
+11:34:42 D Spell: Concentration is now 0 on Ibux
+11:34:42 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities
+11:34:42 D Command: Player 'Ibux' (1), Command: autoattack
+11:35:00 D Command: Player 'Ibux' (1), Command: create
+11:35:00 D Command: Player 'Ibux' (1), Command: clearallqueuedabilities

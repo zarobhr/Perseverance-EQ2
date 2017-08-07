@@ -1,0 +1,1262 @@
+09:52:24 I Init: Starting EQ2Emulator WorldServer...
+09:52:24 I DB: Using database 'eq2world' at localhost
+09:52:24 D World: Randomizing World...
+09:52:24 D Init: ./LoginServer.ini read...
+09:52:24 I World: Loading System Data...
+09:52:27 I World: Loaded System Data (took 3 seconds)
+09:52:27 I Items: Loading Items...
+09:52:27 D Items: 	Loaded 1 Normal Items
+09:52:27 D Items: 	Loaded 0 Baubles
+09:52:27 D Items: 	Loaded 1 Bags
+09:52:27 D Items: 	Loaded 0 Books
+09:52:27 D Items: 	Loaded 0 House Items
+09:52:27 D Items: 	Loaded 0 Food Items
+09:52:27 D Items: 	Loaded 0 Weapons
+09:52:27 D Items: 	Loaded 0 Ranged Weapons
+09:52:27 D Items: 	Loaded 0 Thrown Weapons
+09:52:27 D Items: 	Loaded 0 Armor Pieces
+09:52:27 D Items: 	Loaded 0 Shields
+09:52:27 D Items: 	Loaded 0 Skill Items
+09:52:27 D Items: 	Loaded 0 Recipe Book Items
+09:52:27 D Items: 	Loaded 0 House Containers
+09:52:27 D Items: Loading Item Appearances...
+09:52:27 D Items: 	Loaded 0 Item Appearances
+09:52:27 D Items: Loading Item Stats...
+09:52:27 D Items: 	Loaded 0 Item Stats
+09:52:27 D Items: Loading Item Effects...
+09:52:27 D Items: 	Loaded 0 Item Effects
+09:52:27 D Items: Loading Item Level Overrides...
+09:52:27 D Items: 	Loaded 0 Item Level Overrides
+09:52:27 I Items: Loaded 2 Total Items (took 0 seconds)
+09:52:27 I Spells: Loading Spells...
+09:52:27 D Spells: Loading Spell Effects...
+09:52:27 D Spells: 	Loaded 2 Spell Effects.
+09:52:27 D Spells: Loading Spell LUA Data...
+09:52:28 D Spells: 	Loaded 2 Spell LUA Data entries.
+09:52:28 D Spells: Loading Spells Scripts...
+09:52:28 D Spells: 	Loaded 204 SpellScripts
+09:52:28 I Spells: Loaded 7 Spells (took 1 seconds)
+09:52:28 I Spells: Loading Spell Errors...
+09:52:28 I Traits: Loading Traits...
+09:52:28 I Traits: Loaded 143 Trait(s)
+09:52:28 I Quests: Loading Quests...
+09:52:28 D Quest: 	Loaded 0 Quest(s)
+09:52:28 I Collect: Loading Collections...
+09:52:28 D Collect: 	Loading Collection: 'Erudite Glyph Stones' (1)
+09:52:28 D Collect: 	Loading Collection: 'Runes of Fate' (2)
+09:52:28 D Collect: 	Loading Collection: 'Stonebrunt Highlands: Kaborite Crystals' (3)
+09:52:28 D Collect: 	Loading Collection: 'Sundered Frontier: Kaborite Crystals' (4)
+09:52:28 D Collect: 	Loading Collection: 'The Deep and Dark Places: Geodes' (5)
+09:52:28 D Collect: 	Loading Collection: 'The Vigilant: Runed Scrolls' (6)
+09:52:28 D Collect: 	Loading Collection: 'Vigilant Crew Badges' (7)
+09:52:28 D Collect: 	Loading Collection: 'Vigilant Navigation Maps and Tools' (8)
+09:52:28 D Collect: 	Loading Collection: 'Weapons of the Tallonites' (9)
+09:52:28 D Collect: 	Loading Collection: 'Armor of the Rime' (10)
+09:52:28 D Collect: 	Loading Collection: 'Beam Handler Decoder Rings' (11)
+09:52:28 D Collect: 	Loading Collection: 'Clockwork Gazer Parts' (12)
+09:52:28 D Collect: 	Loading Collection: 'Clothing of the Kejek' (13)
+09:52:28 D Collect: 	Loading Collection: 'Coldain Relics' (14)
+09:52:28 D Collect: 	Loading Collection: 'Common Erudin Clothing' (15)
+09:52:28 D Collect: 	Loading Collection: 'Darkened Grimoires' (16)
+09:52:28 D Collect: 	Loading Collection: 'Erudin Book Minions' (17)
+09:52:28 D Collect: 	Loading Collection: 'Fearsome Weapons of the Gruengach' (18)
+09:52:28 D Collect: 	Loading Collection: 'Fearstalker Remains' (19)
+09:52:28 D Collect: 	Loading Collection: 'Flora of Velious' (20)
+09:52:28 D Collect: 	Loading Collection: 'Forgotten Trinkets' (21)
+09:52:28 D Collect: 	Loading Collection: 'Gardens of Erudin' (22)
+09:52:28 D Collect: 	Loading Collection: 'Glyphed Relics' (23)
+09:52:28 D Collect: 	Loading Collection: 'Iceshard Keep Soldier Symbols' (24)
+09:52:28 D Collect: 	Loading Collection: 'Kael Drakkel Workforce Signets' (25)
+09:52:28 D Collect: 	Loading Collection: 'Kromzek Medals Collection' (26)
+09:52:28 D Collect: 	Loading Collection: 'Kromzek War Relics' (27)
+09:52:28 D Collect: 	Loading Collection: 'Kromzek Warrior Badges' (28)
+09:52:28 D Collect: 	Loading Collection: 'Library of Erudin Murder Weapons' (29)
+09:52:28 D Collect: 	Loading Collection: 'Mammoth Fur Collection' (30)
+09:52:28 D Collect: 	Loading Collection: 'Masks of the Tallonites' (31)
+09:52:28 D Collect: 	Loading Collection: 'Memories of a Cursed Bride' (32)
+09:52:28 D Collect: 	Loading Collection: 'Memories of Velketor' (33)
+09:52:28 D Collect: 	Loading Collection: 'Ning Yun Beads' (34)
+09:52:28 D Collect: 	Loading Collection: 'Order of Rime Battle Relics' (35)
+09:52:28 D Collect: 	Loading Collection: 'Othmir Curios' (36)
+09:52:28 D Collect: 	Loading Collection: 'Quel'Ule Research Manuals' (37)
+09:52:28 D Collect: 	Loading Collection: 'Relics of the Battle of Thurgadin' (38)
+09:52:28 D Collect: 	Loading Collection: 'Rime Badges of Rank' (39)
+09:52:28 D Collect: 	Loading Collection: 'Ry'Gorr Rage Trophies' (40)
+09:52:28 D Collect: 	Loading Collection: 'Shadow-Marked Items' (41)
+09:52:28 D Collect: 	Loading Collection: 'Shadowy Gems' (42)
+09:52:28 D Collect: 	Loading Collection: 'Shards of the Ward-Golems' (43)
+09:52:28 D Collect: 	Loading Collection: 'Slobberjaw Relics' (44)
+09:52:28 D Collect: 	Loading Collection: 'Storm Giant Beard Collection' (45)
+09:52:28 D Collect: 	Loading Collection: 'Tabards of the Deepwater Knights' (46)
+09:52:28 D Collect: 	Loading Collection: 'Tales of Drunder' (47)
+09:52:28 D Collect: 	Loading Collection: 'Tales of Eastern Wastes' (48)
+09:52:28 D Collect: 	Loading Collection: 'Tales of Kael Drakkel' (49)
+09:52:28 D Collect: 	Loading Collection: 'Tales of the Great Divide' (50)
+09:52:28 D Collect: 	Loading Collection: 'Tales of the Kromzek' (51)
+09:52:28 D Collect: 	Loading Collection: 'Tales of the Tower' (52)
+09:52:28 D Collect: 	Loading Collection: 'Tales of Velketor's Labrinth' (53)
+09:52:28 D Collect: 	Loading Collection: 'Tales of Velketor's Labyrinth' (54)
+09:52:28 D Collect: 	Loading Collection: 'Temple of Rallos Zek Holy Symbols' (55)
+09:52:28 D Collect: 	Loading Collection: 'The Chronicles of Velious' (56)
+09:52:28 D Collect: 	Loading Collection: 'Thrael'Gorr Idols Collection' (57)
+09:52:28 D Collect: 	Loading Collection: 'Throne of Storms Oathstones' (58)
+09:52:28 D Collect: 	Loading Collection: 'Thurgadin Mementos' (59)
+09:52:28 D Collect: 	Loading Collection: 'Tizmak Trophies' (60)
+09:52:28 D Collect: 	Loading Collection: 'Tokens of the Eastern Wastes' (61)
+09:52:28 D Collect: 	Loading Collection: 'Tokens of the Great Divide' (62)
+09:52:28 D Collect: 	Loading Collection: 'Trinkets of the Ascent' (63)
+09:52:28 D Collect: 	Loading Collection: 'Trinkets of the Cursed' (64)
+09:52:28 D Collect: 	Loading Collection: 'Vestiges of Growth' (65)
+09:52:28 D Collect: 	Loading Collection: 'a graphometer fragment' (66)
+09:52:28 D Collect: 	Loading Collection: 'Ancient Erudite Crests' (67)
+09:52:28 D Collect: 	Loading Collection: 'Assorted Erudite Gardening Tools' (68)
+09:52:28 D Collect: 	Loading Collection: 'Battle Relics from Kejaan's Rill' (69)
+09:52:28 D Collect: 	Loading Collection: 'Caertaxian Poison Ingredients' (70)
+09:52:28 D Collect: 	Loading Collection: 'Chokidai Collars' (71)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 152031, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 34940, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 34941, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 23061, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 23062, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Crageye Parts' (72)
+09:52:28 D Collect: 	Loading Collection: 'Elemental Cores' (73)
+09:52:28 D Collect: 	Loading Collection: 'Erudite Surgical Tools' (74)
+09:52:28 D Collect: 	Loading Collection: 'Flora and Fauna of The Vasty Deep' (75)
+09:52:28 D Collect: 	Loading Collection: 'Golem Parts' (76)
+09:52:28 D Collect: 	Loading Collection: 'Hua Mein Bamboo Items' (77)
+09:52:28 D Collect: 	Loading Collection: 'Kerran Toys' (78)
+09:52:28 D Collect: 	Loading Collection: 'Kunark Collections' (79)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 38932, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Lowland Basin Goos and Gobs' (80)
+09:52:28 D Collect: 	Loading Collection: 'Necrotic Construct Parts' (81)
+09:52:28 D Collect: 	Loading Collection: 'Petrified Badlands Creature Remnants' (82)
+09:52:28 D Collect: 	Loading Collection: 'Reet Knight Armor' (83)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 152880, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 25797, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 51645, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 51646, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 48786, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 51808, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Relics of the Ethernauts' (84)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 54634, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 51605, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Relics of the Ethernauts' (85)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 54634, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 51605, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Relics of the Fortress' (86)
+09:52:28 D Collect: 	Loading Collection: 'Relics of the Goblin Hero' (87)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 20008, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 132327, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 141526, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 131954, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Relics of the Onaya' (88)
+09:52:28 D Collect: 	Loading Collection: 'Roekillik Weapons' (89)
+09:52:28 D Collect: 	Loading Collection: 'Rubble Items from Old Paineel' (90)
+09:52:28 D Collect: 	Loading Collection: 'Salts from Highland Salts' (91)
+09:52:28 D Collect: 	Loading Collection: 'Sebilisian Symbols' (92)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 30283, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 30287, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Standards of the Goblin Tribes' (93)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 151035, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 39823, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 51594, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 55256, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 37312, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Toxxulian Flora' (94)
+09:52:28 D Collect: 	Loading Collection: 'Underfoot Anchor Components' (95)
+09:52:28 D Collect: 	Loading Collection: 'War Armor of the Ca'Na' (96)
+09:52:28 D Collect: 	Loading Collection: 'Danak Legion Medals' (97)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 152537, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 28515, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 28526, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Devourer Teeth' (98)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 35245, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 35246, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Dirty Dingy Pages' (99)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210194, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Goblin Do-Dads' (100)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 36414, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 36481, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Idols of Lord Venril Sathir' (101)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 25559, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 25556, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Idols of Lord Venril Sathir' (102)
+09:52:28 D Collect: 	Loading Collection: 'Idols of the Tribes of Guk' (103)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 48122, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 48190, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Miragul's Dress Robes' (104)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 28831, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 48903, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Mistmoore's Artifacts' (105)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 24367, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 58809, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Najena's Lab Equipment' (106)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 37130, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 57653, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Poked Out Peepers' (107)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 52894, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 24087, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Possessions of Gynok Moltor' (108)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 25558, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 25547, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Talisman of the Great Anashti Sul' (109)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 23148, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 48251, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Abyssal Carpet Fragments' (110)
+09:52:28 D Collect: 	Loading Collection: 'Ancient Bone Chips' (111)
+09:52:28 D Collect: 	Loading Collection: 'Ancient Sathirian Volumes' (112)
+09:52:28 D Collect: 	Loading Collection: 'Anemone Arms' (113)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 151408, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Artifacts of the Libant' (114)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 38998, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 37155, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Bar Glasses' (115)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 152052, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Blood Runes' (116)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 31740, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 23862, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Brokenskull Pirate Peglegs' (117)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 102496, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 57697, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Brokenskull Pirate Sashes' (118)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 46957, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 24906, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Burynai Eyes' (119)
+09:52:28 D Collect: 	Loading Collection: 'Canvases of Mayong' (120)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 140286, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 142049, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Chart Fragments' (121)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 150694, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Crushed Skulls' (122)
+09:52:28 D Collect: 	Loading Collection: 'Darkened Void Weapons' (123)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 57016, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 142646, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Deathfist Forge Scraps' (124)
+09:52:28 D Collect: 	Loading Collection: 'Dimensional Baubles' (125)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 49033, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 28270, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Draconic Talismans' (126)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 25389, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 34919, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Dryad Leaves' (127)
+09:52:28 D Collect: 	Loading Collection: 'Excavation Trinkets Collection' (128)
+09:52:28 D Collect: 	Loading Collection: 'Fae Fireflies' (129)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 150507, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Faydwer Flowers' (130)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 152050, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Fishman Scales' (131)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 48976, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 48980, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Flower Petals' (132)
+09:52:28 D Collect: 	Loading Collection: 'Froglok Tongues' (133)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 30150, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 30151, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Frost-bitten Toes' (134)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 152149, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Gnomish Devices' (135)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 142740, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 142180, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Golem Shards' (136)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 24298, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 23189, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Guide Dolls Series 01' (137)
+09:52:28 D Collect: 	Loading Collection: 'Guide Doodads Series Five' (138)
+09:52:28 D Collect: 	Loading Collection: 'Guide Doodads Series Four' (139)
+09:52:28 D Collect: 	Loading Collection: 'Guide Doodads Series One' (140)
+09:52:28 D Collect: 	Loading Collection: 'Guide Doodads Series Three' (141)
+09:52:28 D Collect: 	Loading Collection: 'Guide Doodads Series Two' (142)
+09:52:28 D Collect: 	Loading Collection: 'Gukish Cuisine' (143)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 141576, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 134444, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Halas Hunting' (144)
+09:52:28 D Collect: 	Loading Collection: 'Hearts of the Knights of Marr' (145)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 24646, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 56772, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Idols of Shadow' (146)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 49292, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 141568, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Items of the Lost Brotherhood' (147)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 30284, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 141566, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Lost Necromancy Spells' (148)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 28769, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 131063, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Lost Symbols of Marr' (149)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 141257, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 132326, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Magmatic Gem Deposits' (150)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 35030, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 110288, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Mushroom Spores' (151)
+09:52:28 D Collect: 	Loading Collection: 'Naiad Scales' (152)
+09:52:28 D Collect: 	Loading Collection: 'Objects of Affection' (153)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 143078, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 30111, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Paineel Plumbing' (154)
+09:52:28 D Collect: 	Loading Collection: 'Peacock Club Relics' (155)
+09:52:28 D Collect: 	Loading Collection: 'Piano Keys' (156)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 151020, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Relics of Marr's Fist Keep' (157)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 40065, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 54707, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Samples of Destiny' (158)
+09:52:28 D Collect: 	Loading Collection: 'Sarnak Coins' (159)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 28977, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 28980, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Scattered Phylactery Shards' (160)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 26081, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 37940, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Scorpikis Parts' (161)
+09:52:28 D Collect: 	Loading Collection: 'Scorpikis Stingers' (162)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 48240, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 48194, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Slime Samples' (163)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 150553, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 151309, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 150217, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Sokokar Scales' (164)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 38190, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 58662, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Sootfoot Forge Scraps' (165)
+09:52:28 D Collect: 	Loading Collection: 'Spores of Guk' (166)
+09:52:28 D Collect: 	Loading Collection: 'Succulent Needles' (167)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 53230, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 53231, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Symbols of Lord Taros' (168)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 141564, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 141565, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Symbols of the Elements' (169)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 24731, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 34567, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Symbols of the Everdark Ogres' (170)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 105530, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 57656, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Symbols of the Planes' (171)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 133705, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 132804, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Tablets of Atrebe Sathir Dynasty' (172)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 48941, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 141439, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Tablets of Atrebe Sathir Dynasty' (173)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 48941, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 141439, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Tablets of Chottal Sathir Dynasty' (174)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 141442, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 133912, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Tablets of Chottal Sathir Dynasty' (175)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 141442, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 133912, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Tablets of Ganak Sathir Dynasty' (176)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 141441, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 34686, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Tablets of Ganak Sathir Dynasty' (177)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 141441, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 34686, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Tablets of Rile Sathir Dynasty' (178)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 48054, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 141440, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Tablets of Rile Sathir Dynasty' (179)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 48054, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 141440, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Talisman of the Masters' (180)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 54872, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 28557, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The Forbidden Pages' (181)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 181181, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210301, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The Hedge Hollow Collection' (182)
+09:52:28 D Collect: 	Loading Collection: 'The Maiden of Masks' (183)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210324, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Thullosian Tribal Idols' (184)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 134025, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 36416, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Tinkered Parts' (185)
+09:52:28 D Collect: 	Loading Collection: 'Tree Bark' (186)
+09:52:28 D Collect: 	Loading Collection: 'Trinkets of the Digmasters' (187)
+09:52:28 D Collect: 	Loading Collection: 'Tunare's Glade Leaves' (188)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 152048, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Tuptan Cookware' (189)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 24984, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 26152, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Vortex Gates' (190)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 49292, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 130731, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Wooden Salvage' (191)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 152136, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Ydal Talisman' (192)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 23839, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 58808, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Ykeshan Military Emblems' (193)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 117742, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 170223, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Brute Fur' (194)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 23505, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 48889, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Cockatrice Feathers' (195)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 58696, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 25560, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Mantrap Petals' (196)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 23972, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 23971, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Swifttail Shackle Links' (197)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 151727, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 53785, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 53784, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'A Mysterious Black Tome' (198)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210038, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'A Mysterious Green Tome' (199)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210039, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Bandit Coins' (200)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 24699, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 24698, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Burynai Claws' (201)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 23444, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 40319, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Candles' (202)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 152375, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Drachnid Webbing' (203)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 54992, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 54979, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Drolvarg Weapons' (204)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 140954, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 140953, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Ghostly Essences' (205)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 53243, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 25411, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Goblin Earrings' (206)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 30171, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 41115, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Jailer Keys' (207)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 153313, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 25570, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 24889, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Rhino Horns' (208)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 23086, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 53569, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Rilissian Rings of Service' (209)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 152463, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 48072, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 48057, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Stained Glass Fragments' (210)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 53312, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 53311, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Vampire Slaying Tools' (211)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 56818, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 56817, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Wasp Stingers' (212)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 57705, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 57704, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Werewolf Fangs' (213)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 152259, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 58325, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 58324, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Cursed Objects of Unrest' (214)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 152276, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Estate Mementos' (215)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 153401, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The Necropolis of Lxanvon Vol. I' (216)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210333, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The Necropolis of Lxanvon Vol. II' (217)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210334, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'A Mysterious Red Tome' (218)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210040, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'A Sojourn of Faith' (219)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210045, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Drolvarg War Armor' (220)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 152054, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 30180, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 30179, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The Estate of Rest' (221)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210291, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Wurm Scales' (222)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 58791, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 58790, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Wyvern Scales' (223)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 58798, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 58796, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Yeti Fur' (224)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 48911, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 34942, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Abomination Eyes' (225)
+09:52:28 D Collect: 	Loading Collection: 'Abomination Teeth' (226)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 83222, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'An Old Memoir' (227)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210255, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210256, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Aversion' (228)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210071, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Basilisk Spines' (229)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 35385, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 35383, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Blood Vials' (230)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 48853, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 23943, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Bristlebane's Memories' (231)
+09:52:28 D Collect: 	Loading Collection: 'Broken Droag Teeth' (232)
+09:52:28 D Collect: 	Loading Collection: 'Chipped Droag Teeth' (233)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 30168, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 30167, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Discarded Bones' (234)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 20932, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 20931, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Faydwer Collections' (235)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 35291, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Generations' (236)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210134, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Large Droag Claws' (237)
+09:52:28 D Collect: 	Loading Collection: 'Large Pieces of Airship Plating' (238)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 35303, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Orthiss and Kirkata' (239)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210211, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Planar Orbs' (240)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 43932, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 43933, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Polished Droag Teeth' (241)
+09:52:28 D Collect: 	Loading Collection: 'Ravasect Mandibles' (242)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 113704, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 133226, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 113705, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 113703, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Skulls' (243)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 152376, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 32913, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 32914, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The Ant Tale' (244)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210269, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The Big Bang Theory' (245)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210273, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The Fledglings' (246)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210300, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The Littlest Hill Giant' (247)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210322, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The Trainer' (248)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210380, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The Unclaimed Eye' (249)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210382, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'thexian artifacts' (250)
+09:52:28 D Collect: 	Loading Collection: 'We Will Be Free Again' (251)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210410, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Worn Droag Teeth' (252)
+09:52:28 D Collect: 	Loading Collection: 'Aviak Feathers' (253)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 37111, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 22997, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Aviak Talons' (254)
+09:52:28 D Collect: 	Loading Collection: 'Basilisk Scales' (255)
+09:52:28 D Collect: 	Loading Collection: 'Chips: Terracotta Chips' (256)
+09:52:28 D Collect: 	Loading Collection: 'Drednever journal pages' (257)
+09:52:28 D Collect: 	Loading Collection: 'Hooluk Beaks' (258)
+09:52:28 D Collect: 	Loading Collection: 'Medium Droag Claws' (259)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 105085, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 105083, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 105084, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Medium Pieces of Airship Plating' (260)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 106151, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 32916, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 43324, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Mystical Orbs' (261)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 40247, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 40248, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Nayad Scales' (262)
+09:52:28 D Collect: 	Loading Collection: 'Sentry Shards' (263)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 153378, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The Awakened' (264)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210271, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The Hammer of Below' (265)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210307, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Tunarian Spearheads' (266)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 53135, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 53134, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Tunarian Vases' (267)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 55959, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 55960, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Vultak Claws' (268)
+09:52:28 D Collect: 	Loading Collection: 'Wantia Coins' (269)
+09:52:28 D Collect: 	Loading Collection: 'Waterfalls' (270)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210409, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'A History of the Vah Shir, Vol. I' (271)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210034, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'A History of the Vah Shir, Vol. II' (272)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210035, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Ardathium, Vol. I' (273)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210064, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Ardathium, Vol. II' (274)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210065, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Ardathium, Vol. III' (275)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210066, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Ardathium, Vol. IV' (276)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210067, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Ardathium, Vol. V' (277)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210068, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Ardathium, Vol. VI' (278)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210069, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Chronicle of Gromok, Vol. I' (279)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210084, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Chronicle of Gromok, Vol. II' (280)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210085, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Chronicle of Gromok, Vol. III' (281)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210086, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Chronicle of Gromok, Vol. IV' (282)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210087, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'From Pond to Paladin, Vol. I' (283)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210131, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'From Pond to Paladin, Vol. II' (284)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210132, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The First Vision' (285)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210297, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The Stone Frum Pazt, Vol. I' (286)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210354, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The Stone Frum Pazt, Vol. II' (287)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210355, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The Story of Ankexfen' (288)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210366, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Awakened Emblems' (289)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 140664, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Basilisk Teeth' (290)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 84388, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Beholder Eyes' (291)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 152047, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Cinder Ore' (292)
+09:52:28 D Collect: 	Loading Collection: 'Dragon Bone Shards' (293)
+09:52:28 D Collect: 	Loading Collection: 'Dragon Insignias' (294)
+09:52:28 D Collect: 	Loading Collection: 'Dragon Scales' (295)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 131235, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 131232, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 131234, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 131233, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Droag Scales' (296)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 161035, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Edible Mushrooms' (297)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 53295, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 53294, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Feather Leaves' (298)
+09:52:28 D Collect: 	Loading Collection: 'Gourd Seeds' (299)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 153377, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 35400, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 35399, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Nurwin Family Secrets' (300)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 181444, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Poisonous Mushrooms' (301)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 43996, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 43995, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Rare Stones' (302)
+09:52:28 D Collect: 	Loading Collection: 'Small Droag Claws' (303)
+09:52:28 D Collect: 	Loading Collection: 'Small Pieces of Airship Plating' (304)
+09:52:28 D Collect: 	Loading Collection: 'Teachings of Master Wu' (305)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 153158, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The Gumshoe Guide' (306)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 6866, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Trinni's Adventures Aloft' (307)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210402, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'My Time with the Harpies' (308)
+09:52:28 D Collect: 	Loading Collection: 'Of Maj'Dul Am I' (309)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210201, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Poetry of the Djinn' (310)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210221, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Rules of the Sandscrawler Clan' (311)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210244, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The History of Poetry' (312)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210310, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The Poems of Alyarrah' (313)
+09:52:28 D Collect: 	Loading Collection: 'A Tale of the Arena' (314)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 151384, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Anaz Mal, Blackfang' (315)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210059, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Antlers' (316)
+09:52:28 D Collect: 	Loading Collection: 'Clockwork Parts' (317)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 49054, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 49053, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Corruption of Elements' (318)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 140672, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Debris' (319)
+09:52:28 D Collect: 	Loading Collection: 'Dismantled Statue Pieces' (320)
+09:52:28 D Collect: 	Loading Collection: 'Dragonflies' (321)
+09:52:28 D Collect: 	Loading Collection: 'Gears' (322)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 153118, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Lava Creature Parts' (323)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 140746, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Mechanical Springs' (324)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 25815, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 25814, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Pomegranates' (325)
+09:52:28 D Collect: 	Loading Collection: 'Roses' (326)
+09:52:28 D Collect: 	Loading Collection: 'Satyr Instruments' (327)
+09:52:28 D Collect: 	Loading Collection: 'Shards of the Elements' (328)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 140751, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Sootfoot Weapons' (329)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 140752, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Symbols of the Ancient Chieftains' (330)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 140755, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Symbols of the Flame' (331)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 140748, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Tags of the Drakota' (332)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 140756, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The Cleft Dweller' (333)
+09:52:28 D Collect: 	Loading Collection: 'The Desert Beasts' (334)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210286, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The Tale of the Rujarkian Warrior' (335)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210370, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Void Touched Items' (336)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 140747, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Wisps' (337)
+09:52:28 D Collect: 	Loading Collection: 'Selected Poems' (338)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 152897, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The Desert Serpent' (339)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 153182, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'An Oasis in the Desert' (340)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210058, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The Tale of the Silent City' (341)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210371, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Legends of the Dragons' (342)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210178, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Trinni's Adventures Abroad' (343)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210401, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The Tale of Tirazzah' (344)
+09:52:28 D Collect: 	Loading Collection: 'Akhet of the Day' (345)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 28744, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 28743, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Akhet of the Night' (346)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 51706, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Alliz Raef Ew Scales' (347)
+09:52:28 D Collect: 	Loading Collection: 'Arcane Orbs collection.' (348)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 40350, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Broken Tinkered Items' (349)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 24506, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 22934, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Cobra Scale Collection' (350)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 114026, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 23135, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Crocodile Scales Collection' (351)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 48961, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 24763, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Crushed Locust Collection' (352)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 21866, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 26165, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Crushed Scarab Collection' (353)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 48585, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Crushed Scorpion Collection' (354)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 43988, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 104662, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Crushed Solifugid Collection' (355)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 39729, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 28742, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 31681, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 113685, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Desert Sand Collection' (356)
+09:52:28 D Collect: 	Loading Collection: 'Desert Soul Dust Collection' (357)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 56030, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 113926, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'enchanted bone fragments collection' (358)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 31519, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Freeport Postage Collection' (359)
+09:52:28 D Collect: 	Loading Collection: 'From Daughter to Father' (360)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210130, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'glowing shards collection' (361)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 24297, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Gorowyn Postage Collection' (362)
+09:52:28 D Collect: 	Loading Collection: 'Halas Postage Collection' (363)
+09:52:28 D Collect: 	Loading Collection: 'Harpy Feathers Collection' (364)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 33306, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 33307, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Kelethin Postage Collection' (365)
+09:52:28 D Collect: 	Loading Collection: 'Kobold Claws' (366)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 38907, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 38908, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Mineral Water' (367)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 40001, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 40000, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Moon Gems' (368)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 40136, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 48140, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Mountain Lion Tails' (369)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 39408, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 39409, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Mystic Moppet parts' (370)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 152394, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Naga Scales' (371)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 40262, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 49200, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Neriak Postage Collection' (372)
+09:52:28 D Collect: 	Loading Collection: 'Preserved Mummy Wrappings' (373)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 56050, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 23520, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Preserved Tinkered Items' (374)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 107306, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 30140, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Qeynos Postage Collection' (375)
+09:52:28 D Collect: 	Loading Collection: 'Rusted Tinkered Items' (376)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 33311, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 40081, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Sand Blasted Lamp' (377)
+09:52:28 D Collect: 	Loading Collection: 'Sand Blasted Tinkered Items' (378)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 53826, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 39482, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Sand Giant Toes' (379)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 43120, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 53702, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Shining Locust Collection' (380)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 43914, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 130538, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Shining Scarab Collection' (381)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 51424, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Shining Scorpion Collection' (382)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 30214, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 43994, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Shining Solifugid Collection' (383)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 51705, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 39773, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 53439, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 48201, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Shiny Lamp' (384)
+09:52:28 D Collect: 	Loading Collection: 'Sphinx Featheres' (385)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 39729, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 48201, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Sphinx Toes' (386)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 116480, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 133977, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Spotted Locust Collection' (387)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 53772, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 40091, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Spotted Scarab Collection' (388)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 104649, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 25341, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Spotted Scorpion Collection' (389)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 31683, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 43989, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Spotted Solifugid Collection' (390)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 116480, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 53723, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 40551, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Striped Locust Collection' (391)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 43915, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 53773, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Striped Scarab Collection' (392)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 48987, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 25337, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Striped Scorpion Collection' (393)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 117257, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 43990, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Striped Solifugid Collection' (394)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 40136, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 51805, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 23472, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Sun Gems' (395)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 53724, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 53723, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Tarnished Lamp' (396)
+09:52:28 D Collect: 	Loading Collection: 'Tarnished Tinkered Items' (397)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 23857, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 24218, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Tattered Mummy Wrappings' (398)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 23162, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 23856, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The Nights of the Dead' (399)
+09:52:28 D Collect: 	Loading Collection: 'The Second Wife's Tale' (400)
+09:52:28 D Collect: 	Loading Collection: 'Worn Mummy Wrappings' (401)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 26031, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 53474, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Turtle Odds 'n Ends' (402)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 151419, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'abjuration shards collection' (403)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 34708, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Ak'Anon coins collection' (404)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 151501, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'alteration shards collection' (405)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 34709, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'barbarian bone fragment collection' (406)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 142141, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Brien - Clan Icereaver' (407)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210083, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'channeling shards collection' (408)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 34710, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'conjuration shards collection' (409)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 34711, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 34712, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Crab Bits and Pieces' (410)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 151410, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'dark elf bone fragment collection' (411)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 142142, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'divination shards collection' (412)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 34713, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Donnghail - Clan McNaggle' (413)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210104, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'dwarf bone fragment collection' (414)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 142143, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'erudite bone fragment collection' (415)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 142144, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'evocation shards collection' (416)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 34714, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'froglok bone fragment collection' (417)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 142145, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'gnoll bone fragment collection' (418)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 142146, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'gnome bone fragment collection' (419)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 142147, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Good Eatin'' (420)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210135, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'half elf bone fragment collection' (421)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 142149, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'halfling bone fragment collection' (422)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 142150, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'high elf bone fragment collection' (423)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 142151, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'human bone fragment collection' (424)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 142152, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'iksar bone fragment collection' (425)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 142153, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'In Search of the Wooly Mammoth' (426)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210154, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'kerra bone fragment collection' (427)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 142154, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Local Color - Halas' (428)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210183, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'ogre bone fragment collection' (429)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 142155, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'orc bone fragment collection' (430)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 142156, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'ratonga bone fragment collection' (431)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 142157, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The Contentment' (432)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210284, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210285, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The Dying' (433)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210287, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210288, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The First Battle' (434)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210295, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210296, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The Growing' (435)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210305, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210306, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The Last Battle' (436)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210317, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210318, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'troll bone fragment collection' (437)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 142158, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'wood elf bone fragment collection' (438)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 142159, Qty: 1
+09:52:28 D Collect: 	Loading Collection: '1st Lieutenant Danarg, 291 AS' (439)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210000, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210001, Qty: 1
+09:52:28 D Collect: 	Loading Collection: '1st Lieutenant Danarg, 313 AS' (440)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210002, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210003, Qty: 1
+09:52:28 D Collect: 	Loading Collection: '1st Lieutenant Danarg, 315 AS' (441)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210004, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210005, Qty: 1
+09:52:28 D Collect: 	Loading Collection: '1st Lieutenant Dergud, 263 AS' (442)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210006, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210007, Qty: 1
+09:52:28 D Collect: 	Loading Collection: '1st Lieutenant Dergud, 279 AS' (443)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210008, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210009, Qty: 1
+09:52:28 D Collect: 	Loading Collection: '1st Lieutenant Dergud, 289 AS' (444)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210010, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210011, Qty: 1
+09:52:28 D Collect: 	Loading Collection: '1st Lieutenant Mugreeza, 289 AS' (445)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210012, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210013, Qty: 1
+09:52:28 D Collect: 	Loading Collection: '1st Lieutenant Mugreeza, 290 AS' (446)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210014, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210015, Qty: 1
+09:52:28 D Collect: 	Loading Collection: '1st Lieutenant Mugreeza, 291 AS' (447)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210016, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210017, Qty: 1
+09:52:28 D Collect: 	Loading Collection: '3rd Lieutenant Gerrog - Logbook' (448)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210018, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210019, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Alliz Evol Ew' (449)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210050, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210051, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Alliz Onu' (450)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210052, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210053, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Alliz Tae Ew' (451)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210054, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210055, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'enchanted maple leaves collection' (452)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 220128, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 220129, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 220130, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'feerrott fern leaves collection' (453)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 220124, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Grobb coins collection' (454)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 151505, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Oggok coins collection' (455)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 151511, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Quotes of General Urduuk' (456)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210224, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210225, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Rivervale coins collection' (457)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 151512, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'shiny shards collection' (458)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 24319, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The Brady Bunch' (459)
+09:52:28 D Collect: 	Loading Collection: 'The Journal of Meldrath the Malignant' (460)
+09:52:28 D Collect: 	Loading Collection: 'The Merchant's Deal' (461)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210327, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210328, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'unscathed bone fragments collection' (462)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 56223, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The Wall' (463)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210390, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210391, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The Storm Shepherds - Darnalithenis of Felwithe' (464)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210356, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210357, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The Storm Shepherds - Gremius Hazzengrav' (465)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210358, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210359, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The Storm Shepherds - Tammin Whipperwillow' (466)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210360, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210361, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The Storm Shepherds - The Calm' (467)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210362, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210363, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The Storm Shepherds - The Downpour' (468)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210364, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210365, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Bestest Orc Emperors' (469)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 151688, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210075, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Bird Watching - The Beast of the Enchanted Lands, Part I' (470)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210077, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210078, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Bird Watching - The Beast of the Enchanted Lands, Part II' (471)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210079, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210080, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'bloodstone shard collection' (472)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 151706, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Bugbear Bones' (473)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 24692, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 24691, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Bugbear Ears' (474)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 24693, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 24694, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Chess Pieces' (475)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 151733, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Dwarven Steins' (476)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 130414, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 130415, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Fae Bones' (477)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 32937, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 32938, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Fauna of the Enchanted Lands A - K' (478)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210117, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210118, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Fauna of the Enchanted Lands L - Z' (479)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210119, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210120, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Foreman Garz'gog Dyeree' (480)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 152085, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210126, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'grinnin bone fragment collection' (481)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 152192, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Jerb Northstar's Journal' (482)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210158, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210159, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Kobold Bones' (483)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 38905, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 38906, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Kobold Paws' (484)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 24505, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 24504, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Mining Picks' (485)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 152282, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'plain mushroom collection' (486)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 150685, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Rise of the Orcs - The Ascension' (487)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210233, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210234, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Rise of the Orcs - The Deadtime' (488)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210235, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210236, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Rise of the Orcs - The Fall' (489)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210237, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210238, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Rise of the Orcs - The Rejoining' (490)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210239, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210240, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Rise of the Orcs - The Rousing' (491)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210241, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210242, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The Nine Contemplations' (492)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 153270, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210339, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The Orcs of Norrath' (493)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210340, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210341, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'vampire fang collection' (494)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 150604, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 150605, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Crushbone Insignias' (495)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 28203, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 28202, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Kaladim coins collection' (496)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 151508, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Mined Gems' (497)
+09:52:28 D Collect: 	Loading Collection: 'Neriak coins collection' (498)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 151510, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'plain ant collection' (499)
+09:52:28 D Collect: 	Loading Collection: 'pristine shards collection' (500)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 24313, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'spotted ant collection' (501)
+09:52:28 D Collect: 	Loading Collection: 'striped ant collection' (502)
+09:52:28 D Collect: 	Loading Collection: 'Torture Instruments' (503)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 151929, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'War Medallions' (504)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 142151, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 57651, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 57652, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'weathered bone fragments collection' (505)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 58294, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Kelethin coins collection' (506)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 151509, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'nektulos pine needle collection' (507)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 220135, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 220136, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 220137, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'plain beetle collection' (508)
+09:52:28 D Collect: 	Loading Collection: 'plain spider collection' (509)
+09:52:28 D Collect: 	Loading Collection: 'spotted beetle collection' (510)
+09:52:28 D Collect: 	Loading Collection: 'spotted spider collection' (511)
+09:52:28 D Collect: 	Loading Collection: 'striped beetle collection' (512)
+09:52:28 D Collect: 	Loading Collection: 'striped spider collection' (513)
+09:52:28 D Collect: 	Loading Collection: 'Acorns' (514)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 152049, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 20084, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 20085, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Aniron's Journey' (515)
+09:52:28 D Collect: 	Loading Collection: 'Brews Across Norrath' (516)
+09:52:28 D Collect: 	Loading Collection: 'butterfly collection.' (517)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 24749, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'cracked bone fragments collection' (518)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 26076, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Forest Beetles' (519)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 24908, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 24909, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'From Below to Castle' (520)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210129, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Gnoll Ears Collection' (521)
+09:52:28 D Collect: 	Loading Collection: 'Gnoll Tails Collection' (522)
+09:52:28 D Collect: 	Loading Collection: 'Grubs' (523)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 36476, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 36475, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Halas coins collection' (524)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 151506, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Impossibly Rare Objects' (525)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 152139, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'moth collection' (526)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 40173, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'My True Beloved' (527)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210193, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Our Lady of Betrayal' (528)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210212, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Romantic Flower Petals' (529)
+09:52:28 D Collect: 	Loading Collection: 'scuffed shards collection' (530)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 24315, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Splitpaw Coins Collection' (531)
+09:52:28 D Collect: 	Loading Collection: 'antonican ficus leaves collection' (532)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 220279, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 220280, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 220281, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'commonlands shrub leaves collection' (533)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 220279, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 220280, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 220281, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Duck and purple' (534)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 3967, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Erudin coins collection' (535)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 151503, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Features' (536)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 3967, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'plain butterfly collection' (537)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 3967, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'spotted butterfly collection' (538)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 3969, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'striped butterfly collection' (539)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 3971, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Test1' (540)
+09:52:28 D Collect: 	Loading Collection: 'Test2 Blue' (541)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 3967, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Test3 Yellow' (542)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 3967, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'The Lore of Fauna: The Behemoth' (543)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 12331, Qty: 1
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 210323, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'chipped shards collection' (544)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 24276, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'feather collection' (545)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 25869, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'Felwithe coins collection' (546)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 151504, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'iridescent beetle collection' (547)
+09:52:28 D Collect: 	Loading Collection: 'plain moth collection' (548)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 3968, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'regal butterfly collection' (549)
+09:52:28 D Collect: 	Loading Collection: 'shattered bone fragments collection' (550)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 51363, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'shell collection' (551)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 25870, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'spotted moth collection' (552)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 3970, Qty: 1
+09:52:28 D Collect: 	Loading Collection: 'striped moth collection' (553)
+09:52:28 D Collect: 	Loading Collection Reward: Type: Selectable, Val: 3972, Qty: 1
+09:52:28 D Collect: 	Loaded 553 collections
+09:52:28 D Collect: 	Loaded 0 collection items
+09:52:28 D Collect: 	Loaded 606 collection rewards
+09:52:28 I Guilds: Loading Guilds...
+09:52:28 I Guilds: 	Loaded 0 Guild(s)
+09:52:28 I Recipes: Loading Recipe Books...
+09:52:28 D Recipes: 	Loaded 0 Recipe Books 
+09:52:28 I Recipes: Loading Recipes...
+09:52:28 D Recipes: 	Loaded 980 recipes
+09:52:28 I Tradeskills: Loading Tradeskill Events...
+09:52:28 D Tradeskills: 	Loaded 144 tradeskill events
+09:52:28 I Achievements: Loading Achievements...
+09:52:28 I AA: Loading Alternate Advancements...
+09:52:28 I AA: Loaded 3084 Alternate Advancement(s)
+09:52:28 I AA: Loading AA Tree Nodes...
+09:52:28 I AA: Loaded 0 AA Tree Nodes
+09:52:28 I Titles: Loading Titles...
+09:52:28 D World: 	Loaded 471 Titles
+09:52:28 I Languages: Loading Languages...
+09:52:28 D World: 	Loaded 0 Languages
+09:52:28 I Chat: Loading channels...
+09:52:28 I Merchants: Loading Merchants...
+09:52:28 D Merchant: 	Clearing Merchant Inventory...
+09:52:28 D Merchant: 	Loading Merchant Inventory...
+09:52:29 D Merchant: 	Loaded 0 Merchant Inventory Item(s)
+09:52:29 D Merchant: 	Loaded 0 Merchant List(s)
+09:52:29 I LUA: Loading Spawn Scripts...
+09:52:29 D LUA: 	Loaded 0 SpawnScripts
+09:52:29 I LUA: Loading Zone Scripts...
+09:52:29 D LUA: 	Loaded 0 ZoneScripts
+09:52:29 I World: Loading House Zone Data...
+09:52:29 I World: Loading Heroic OP Data...
+09:52:29 I World: Loading Race Types Data...
+09:52:29 I World: - Loaded 0 Race Types
+09:52:29 I World: Total World startup time: 5 seconds.
+09:52:29 D World: Starting factory Reader
+09:52:29 D World: Starting factory Writer
+09:52:29 I Net: World server listening on: 127.0.0.1:9000
+09:52:29 I Zone: Starting static zones...
+09:52:29 D Thread: Starting console command thread...
+09:52:29 I Console: Type 'help' or '?' and press enter for menu options.
+09:52:29 D Thread: Starting autoinit loginserver thread...
+09:52:29 I World: Connected to LoginServer: 127.0.0.1: 9100
+09:53:59 E World: Error in GetCharacterName query 'SELECT name FROM characters where id=2': 
+09:54:43 E World: Error in GetCharacterName query 'SELECT name FROM characters where id=1': 
+09:56:07 D World: Name check on: Emem
+09:56:07 D World: Response: 1
+09:56:08 D Player: Adding default zone for race: 8, class: 37 for char_id: 1 (choice: 32)
+09:56:08 D Player: Setting New Character Starting Zone to 'FrostfangSea' FROM player choice.
+09:56:08 D Player: Adding default items for race: 8, class: 37 for char_id: 1
+09:56:08 D Player: Adding default skills for race: 8, class: 37 for char_id: 1
+09:56:08 D Player: Adding default spells for race: 8, class: 37 for char_id: 1
+09:56:08 D Player: Adding default skillbar for race: 8, class: 37 for char_id: 1
+09:56:08 D Player: Adding default titles for race: 8, class: 37, gender: 2 for char_id: 1
+09:56:09 D Net: AddAuth: 1 Key: 1489758969
+09:56:09 D Net: New client from ip: 127.0.0.1 port: 60456
+09:56:09 D Net: Adding new client...
+09:57:28 I World: Removing client from ip: 127.0.0.1 port: 60456
+09:57:39 D World: Removing connection...

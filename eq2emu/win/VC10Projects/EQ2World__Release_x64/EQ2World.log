@@ -1,0 +1,321 @@
+﻿Build started 3/29/2017 3:56:24 PM.
+     1>Project "C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W1 /WX- /MP /Od /Ob2 /D _WIN32_WINNT=0x0400 /D WIN32 /D NDEBUG /D _CONSOLE /D WORLD /D EQ2 /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS- /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\EQ2World__Release_x64\\" /Fd".\EQ2World__Release_x64\vc120.pdb" /Gd /TP /errorReport:prompt ..\..\source\common\DatabaseNew.cpp ..\..\source\common\DatabaseResult.cpp ..\..\source\WorldServer\Achievements\Achievements.cpp ..\..\source\WorldServer\Achievements\AchievementsDB.cpp ..\..\source\WorldServer\AltAdvancement\AltAdvancement.cpp ..\..\source\WorldServer\AltAdvancement\AltAdvancementDB.cpp ..\..\source\WorldServer\Chat\Chat.cpp ..\..\source\WorldServer\Chat\ChatChannel.cpp ..\..\source\WorldServer\Chat\ChatDB.cpp ..\..\source\WorldServer\classes.cpp ..\..\source\WorldServer\client.cpp ..\..\source\WorldServer\ClientPacketFunctions.cpp ..\..\source\WorldServer\Collections\Collections.cpp ..\..\source\WorldServer\Collections\CollectionsDB.cpp ..\..\source\WorldServer\Combat.cpp ..\..\source\WorldServer\Commands\CommandsDB.cpp ..\..\source\WorldServer\Entity.cpp ..\..\source\WorldServer\Factions.cpp ..\..\source\WorldServer\GroundSpawn.cpp ..\..\source\WorldServer\Guilds\Guild.cpp ..\..\source\WorldServer\Guilds\GuildDB.cpp ..\..\source\WorldServer\HeroicOp\HeroicOp.cpp ..\..\source\WorldServer\HeroicOp\HeroicOpDB.cpp ..\..\source\WorldServer\HeroicOp\HeroicOpPackets.cpp ..\..\source\WorldServer\Housing\HousingDB.cpp ..\..\source\WorldServer\Housing\HousingPackets.cpp ..\..\source\WorldServer\IRC\IRC.cpp ..\..\source\WorldServer\IRC\IRCChannel.cpp ..\..\source\WorldServer\IRC\IRCMessage.cpp ..\..\source\WorldServer\IRC\IRCServer.cpp ..\..\source\WorldServer\Items\Items.cpp ..\..\source\WorldServer\Items\ItemsDB.cpp ..\..\source\WorldServer\Items\Loot.cpp ..\..\source\WorldServer\Items\LootDB.cpp ..\..\source\WorldServer\Languages.cpp ..\..\source\WorldServer\LoginServer.cpp ..\..\source\WorldServer\LuaFunctions.cpp ..\..\source\WorldServer\LuaInterface.cpp ..\..\source\WorldServer\net.cpp ..\..\source\WorldServer\NPC.cpp ..\..\source\WorldServer\NPC_AI.cpp ..\..\source\WorldServer\Object.cpp ..\..\source\WorldServer\Player.cpp ..\..\source\WorldServer\PlayerGroups.cpp ..\..\source\WorldServer\Quests.cpp ..\..\source\WorldServer\races.cpp ..\..\source\WorldServer\RaceTypes\RaceTypes.cpp ..\..\source\WorldServer\RaceTypes\RaceTypesDB.cpp ..\..\source\WorldServer\Recipes\Recipe.cpp ..\..\source\WorldServer\Recipes\RecipeDB.cpp ..\..\source\WorldServer\Rules\Rules.cpp ..\..\source\WorldServer\Rules\RulesDB.cpp ..\..\source\WorldServer\Sign.cpp ..\..\source\WorldServer\Skills.cpp ..\..\source\WorldServer\Spawn.cpp ..\..\source\WorldServer\SpellProcess.cpp ..\..\source\WorldServer\Spells.cpp ..\..\source\WorldServer\Titles.cpp ..\..\source\WorldServer\Tradeskills\TradeskillsDB.cpp ..\..\source\WorldServer\Tradeskills\TradeskillsPackets.cpp ..\..\source\WorldServer\Traits\Traits.cpp ..\..\source\WorldServer\Widget.cpp ..\..\source\WorldServer\World.cpp ..\..\source\WorldServer\WorldDatabase.cpp ..\..\source\WorldServer\zoneserver.cpp ..\..\source\WorldServer\Tradeskills\Tradeskills.cpp ..\..\source\WorldServer\Commands\Commands.cpp ..\..\source\WorldServer\Commands\ConsoleCommands.cpp ..\..\source\common\Condition.cpp ..\..\source\common\ConfigReader.cpp ..\..\source\common\CRC16.cpp ..\..\source\common\Crypto.cpp ..\..\source\common\database.cpp ..\..\source\common\dbcore.cpp ..\..\source\common\debug.cpp ..\..\source\common\emu_opcodes.cpp ..\..\source\common\EQEMuError.cpp ..\..\source\common\EQPacket.cpp ..\..\source\common\EQStream.cpp ..\..\source\common\EQStreamFactory.cpp ..\..\source\common\Log.cpp ..\..\source\common\md5.cpp ..\..\source\common\misc.cpp ..\..\source\common\MiscFunctions.cpp ..\..\source\common\Mutex.cpp ..\..\source\common\opcodemgr.cpp ..\..\source\common\packet_dump.cpp ..\..\source\common\packet_functions.cpp ..\..\source\common\PacketStruct.cpp ..\..\source\common\RC4.cpp ..\..\source\common\TCPConnection.cpp ..\..\source\common\timer.cpp ..\..\source\common\xmlParser.cpp
+         DatabaseNew.cpp
+         DatabaseResult.cpp
+         Achievements.cpp
+         AchievementsDB.cpp
+         AltAdvancement.cpp
+         AltAdvancementDB.cpp
+         Chat.cpp
+         ChatChannel.cpp
+         ChatDB.cpp
+         classes.cpp
+         client.cpp
+         ClientPacketFunctions.cpp
+         Collections.cpp
+         CollectionsDB.cpp
+         Combat.cpp
+         CommandsDB.cpp
+         Entity.cpp
+         Factions.cpp
+         GroundSpawn.cpp
+         Guild.cpp
+         GuildDB.cpp
+         HeroicOp.cpp
+         HeroicOpDB.cpp
+         HeroicOpPackets.cpp
+         HousingDB.cpp
+         HousingPackets.cpp
+         IRC.cpp
+         IRCChannel.cpp
+         IRCMessage.cpp
+         IRCServer.cpp
+         Items.cpp
+         ItemsDB.cpp
+         Loot.cpp
+         LootDB.cpp
+         Languages.cpp
+         LoginServer.cpp
+         LuaFunctions.cpp
+         LuaInterface.cpp
+         net.cpp
+         NPC.cpp
+         NPC_AI.cpp
+         Object.cpp
+         Player.cpp
+         PlayerGroups.cpp
+         Quests.cpp
+         races.cpp
+         RaceTypes.cpp
+         RaceTypesDB.cpp
+         Recipe.cpp
+         RecipeDB.cpp
+         Rules.cpp
+         RulesDB.cpp
+         Sign.cpp
+         Skills.cpp
+         Spawn.cpp
+         SpellProcess.cpp
+         Spells.cpp
+         Titles.cpp
+         TradeskillsDB.cpp
+         TradeskillsPackets.cpp
+         Traits.cpp
+         Widget.cpp
+         World.cpp
+         WorldDatabase.cpp
+         zoneserver.cpp
+         Tradeskills.cpp
+         Commands.cpp
+         ConsoleCommands.cpp
+         Condition.cpp
+         ConfigReader.cpp
+         CRC16.cpp
+         Crypto.cpp
+         database.cpp
+         dbcore.cpp
+         debug.cpp
+         emu_opcodes.cpp
+         EQEMuError.cpp
+         EQPacket.cpp
+         EQStream.cpp
+         EQStreamFactory.cpp
+         Log.cpp
+         md5.cpp
+         misc.cpp
+         MiscFunctions.cpp
+         Mutex.cpp
+         opcodemgr.cpp
+         packet_dump.cpp
+         packet_functions.cpp
+         PacketStruct.cpp
+         RC4.cpp
+         TCPConnection.cpp
+         timer.cpp
+         xmlParser.cpp
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(C:\My server\eq2emu\trunk\win\VC10Projects\.\..\..\bin\EQ2World.exe) does not match the Linker's OutputFile property value (C:\My server\eq2emu\trunk\bin\EQ2World_x64.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1195,5): warning MSB8012: TargetName(EQ2World) does not match the Linker's OutputFile property value (EQ2World_x64). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:".\..\..\bin\EQ2World_x64.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\source\LUA LUALibx64_release.lib ws2_32.lib Zlibx64_release.lib mysqlclientx64_release.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libc.lib /NODEFAULTLIB:msvcrt.lib /NODEFAULTLIB:libcd.lib /NODEFAULTLIB:libcmtd.lib /NODEFAULTLIB:msvcrtd.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\EQ2World__Release_x64\EQ2World__Release_x64.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\..\..\bin\EQ2World.lib" /MACHINE:X64 .\EQ2World__Release_x64\DatabaseNew.obj
+         .\EQ2World__Release_x64\DatabaseResult.obj
+         .\EQ2World__Release_x64\Achievements.obj
+         .\EQ2World__Release_x64\AchievementsDB.obj
+         .\EQ2World__Release_x64\AltAdvancement.obj
+         .\EQ2World__Release_x64\AltAdvancementDB.obj
+         .\EQ2World__Release_x64\Chat.obj
+         .\EQ2World__Release_x64\ChatChannel.obj
+         .\EQ2World__Release_x64\ChatDB.obj
+         .\EQ2World__Release_x64\classes.obj
+         .\EQ2World__Release_x64\client.obj
+         .\EQ2World__Release_x64\ClientPacketFunctions.obj
+         .\EQ2World__Release_x64\Collections.obj
+         .\EQ2World__Release_x64\CollectionsDB.obj
+         .\EQ2World__Release_x64\Combat.obj
+         .\EQ2World__Release_x64\CommandsDB.obj
+         .\EQ2World__Release_x64\Entity.obj
+         .\EQ2World__Release_x64\Factions.obj
+         .\EQ2World__Release_x64\GroundSpawn.obj
+         .\EQ2World__Release_x64\Guild.obj
+         .\EQ2World__Release_x64\GuildDB.obj
+         .\EQ2World__Release_x64\HeroicOp.obj
+         .\EQ2World__Release_x64\HeroicOpDB.obj
+         .\EQ2World__Release_x64\HeroicOpPackets.obj
+         .\EQ2World__Release_x64\HousingDB.obj
+         .\EQ2World__Release_x64\HousingPackets.obj
+         .\EQ2World__Release_x64\IRC.obj
+         .\EQ2World__Release_x64\IRCChannel.obj
+         .\EQ2World__Release_x64\IRCMessage.obj
+         .\EQ2World__Release_x64\IRCServer.obj
+         .\EQ2World__Release_x64\Items.obj
+         .\EQ2World__Release_x64\ItemsDB.obj
+         .\EQ2World__Release_x64\Loot.obj
+         .\EQ2World__Release_x64\LootDB.obj
+         .\EQ2World__Release_x64\Languages.obj
+         .\EQ2World__Release_x64\LoginServer.obj
+         .\EQ2World__Release_x64\LuaFunctions.obj
+         .\EQ2World__Release_x64\LuaInterface.obj
+         .\EQ2World__Release_x64\net.obj
+         .\EQ2World__Release_x64\NPC.obj
+         .\EQ2World__Release_x64\NPC_AI.obj
+         .\EQ2World__Release_x64\Object.obj
+         .\EQ2World__Release_x64\Player.obj
+         .\EQ2World__Release_x64\PlayerGroups.obj
+         .\EQ2World__Release_x64\Quests.obj
+         .\EQ2World__Release_x64\races.obj
+         .\EQ2World__Release_x64\RaceTypes.obj
+         .\EQ2World__Release_x64\RaceTypesDB.obj
+         .\EQ2World__Release_x64\Recipe.obj
+         .\EQ2World__Release_x64\RecipeDB.obj
+         .\EQ2World__Release_x64\Rules.obj
+         .\EQ2World__Release_x64\RulesDB.obj
+         .\EQ2World__Release_x64\Sign.obj
+         .\EQ2World__Release_x64\Skills.obj
+         .\EQ2World__Release_x64\Spawn.obj
+         .\EQ2World__Release_x64\SpellProcess.obj
+         .\EQ2World__Release_x64\Spells.obj
+         .\EQ2World__Release_x64\Titles.obj
+         .\EQ2World__Release_x64\TradeskillsDB.obj
+         .\EQ2World__Release_x64\TradeskillsPackets.obj
+         .\EQ2World__Release_x64\Traits.obj
+         .\EQ2World__Release_x64\Widget.obj
+         .\EQ2World__Release_x64\World.obj
+         .\EQ2World__Release_x64\WorldDatabase.obj
+         .\EQ2World__Release_x64\zoneserver.obj
+         .\EQ2World__Release_x64\Tradeskills.obj
+         .\EQ2World__Release_x64\Commands.obj
+         .\EQ2World__Release_x64\ConsoleCommands.obj
+         .\EQ2World__Release_x64\Condition.obj
+         .\EQ2World__Release_x64\ConfigReader.obj
+         .\EQ2World__Release_x64\CRC16.obj
+         .\EQ2World__Release_x64\Crypto.obj
+         .\EQ2World__Release_x64\database.obj
+         .\EQ2World__Release_x64\dbcore.obj
+         .\EQ2World__Release_x64\debug.obj
+         .\EQ2World__Release_x64\emu_opcodes.obj
+         .\EQ2World__Release_x64\EQEMuError.obj
+         .\EQ2World__Release_x64\EQPacket.obj
+         .\EQ2World__Release_x64\EQStream.obj
+         .\EQ2World__Release_x64\EQStreamFactory.obj
+         .\EQ2World__Release_x64\Log.obj
+         .\EQ2World__Release_x64\md5.obj
+         .\EQ2World__Release_x64\misc.obj
+         .\EQ2World__Release_x64\MiscFunctions.obj
+         .\EQ2World__Release_x64\Mutex.obj
+         .\EQ2World__Release_x64\opcodemgr.obj
+         .\EQ2World__Release_x64\packet_dump.obj
+         .\EQ2World__Release_x64\packet_functions.obj
+         .\EQ2World__Release_x64\PacketStruct.obj
+         .\EQ2World__Release_x64\RC4.obj
+         .\EQ2World__Release_x64\TCPConnection.obj
+         .\EQ2World__Release_x64\timer.obj
+         .\EQ2World__Release_x64\xmlParser.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+         LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+     1>mysqlclientx64_release.lib(array.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(array.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(bchange.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(bchange.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(bmove_upp.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(bmove_upp.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(charset-def.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(charset-def.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(charset.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(charset.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(client.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(client.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(ctype-big5.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(ctype-big5.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(ctype-bin.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(ctype-bin.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(ctype-cp932.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(ctype-cp932.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(ctype-czech.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(ctype-czech.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(ctype-euc_kr.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(ctype-euc_kr.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(ctype-eucjpms.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(ctype-eucjpms.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(ctype-extra.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(ctype-extra.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(ctype-gb2312.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(ctype-gb2312.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(ctype-gbk.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(ctype-gbk.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(ctype-latin1.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(ctype-latin1.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(ctype-mb.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(ctype-mb.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(ctype-simple.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(ctype-simple.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(ctype-sjis.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(ctype-sjis.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(ctype-tis620.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(ctype-tis620.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(ctype-uca.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(ctype-uca.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(ctype-ucs2.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(ctype-ucs2.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(ctype-ujis.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(ctype-ujis.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(ctype-utf8.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(ctype-utf8.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(ctype-win1250ch.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(ctype-win1250ch.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(ctype.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(ctype.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(default.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(default.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(errmsg.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(errmsg.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(errors.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(errors.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(int2str.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(int2str.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(is_prefix.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(is_prefix.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(libmysql.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(libmysql.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(list.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(list.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(longlong2str.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(longlong2str.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(mf_arr_appstr.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(mf_arr_appstr.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(mf_dirname.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(mf_dirname.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(mf_fn_ext.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(mf_fn_ext.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(mf_format.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(mf_format.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(mf_loadpath.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(mf_loadpath.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(mf_pack.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(mf_pack.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(mulalloc.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(mulalloc.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(my_access.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(my_access.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(my_alloc.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(my_alloc.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(my_compress.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(my_compress.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(my_div.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(my_div.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(my_error.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(my_error.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(my_fopen.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(my_fopen.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(my_gethostbyname.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(my_gethostbyname.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(my_getwd.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(my_getwd.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(my_init.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(my_init.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(my_lib.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(my_lib.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(my_malloc.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(my_malloc.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(my_messnc.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(my_messnc.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(my_net.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(my_net.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(my_once.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(my_once.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(my_open.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(my_open.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(my_pthread.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(my_pthread.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(my_read.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(my_read.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(my_realloc.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(my_realloc.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(my_static.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(my_static.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(my_strtoll10.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(my_strtoll10.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(my_symlink.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(my_symlink.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(my_thr_init.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(my_thr_init.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(my_time.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(my_time.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(my_vsnprintf.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(my_vsnprintf.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(my_wincond.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(my_wincond.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(my_winthread.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(my_winthread.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(net_serv.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(net_serv.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(pack.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(pack.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(password.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(password.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(sha1.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(sha1.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(str2int.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(str2int.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(str_alloc.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(str_alloc.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(strcend.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(strcend.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(strend.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(strend.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(strmake.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(strmake.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(strmov.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(strmov.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(strnmov.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(strnmov.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(strtod.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(strtod.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(strxmov.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(strxmov.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(strxnmov.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(strxnmov.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(typelib.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(typelib.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(vio.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(vio.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(viosocket.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(viosocket.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(viossl.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(viossl.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(viosslfactories.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(viosslfactories.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(xml.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(xml.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(mf_qsort.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(mf_qsort.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(uncompr.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(uncompr.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(aes.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(aes.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(aestables.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(aestables.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(algebra.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(algebra.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(arc4.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(arc4.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(asn.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(asn.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(coding.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(coding.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(des.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(des.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(dh.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(dh.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(dsa.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(dsa.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(file.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(file.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(hash.cpp.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(hash.cpp.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(integer.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(integer.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(md2.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(md2.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(md4.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(md4.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(md5.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(md5.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(misc.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(misc.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(random.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(random.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(ripemd.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(ripemd.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(rsa.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(rsa.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(sha.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(sha.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(buffer.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(buffer.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(cert_wrapper.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(cert_wrapper.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(crypto_wrapper.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(crypto_wrapper.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(handshake.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(handshake.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(log.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(log.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(socket_wrapper.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(socket_wrapper.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(ssl.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(ssl.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(timer.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(timer.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(yassl_error.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(yassl_error.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(yassl_imp.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(yassl_imp.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+     1>mysqlclientx64_release.lib(yassl_int.obj) : warning LNK4099: PDB 'mysqlclient.pdb' was not found with 'mysqlclientx64_release.lib(yassl_int.obj)' or at 'C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World__Release_x64\mysqlclient.pdb'; linking object as if no debug info
+         EQ2World.vcxproj -> C:\My server\eq2emu\trunk\win\VC10Projects\.\..\..\bin\EQ2World.exe
+     1>Done Building Project "C:\My server\eq2emu\trunk\win\VC10Projects\EQ2World.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:44.04
